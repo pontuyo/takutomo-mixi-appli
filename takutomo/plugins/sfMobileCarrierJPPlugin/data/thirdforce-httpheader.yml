@@ -1,0 +1,1576 @@
+--- 
+- 
+  "model": '942SH KT'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '942SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '943SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '943SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '841P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '841P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '840P for Biz'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '840Pe'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '942SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '942SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '941P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '941P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '840SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '840SH'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '940P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '940P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '940N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '940N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '840P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '840P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '941SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*1024'
+  "x-jphone-name": '941SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '940SC'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '940SC'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '931N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '931N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '940SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '940SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '832SH s'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '832SHs'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '740SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '740SC'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '831N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '831N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '830SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '830SC'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '936SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '936SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '832SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '832SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '935SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '935SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '931P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '931P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '832T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '832T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '931SC'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '931SC'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '930N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '930N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '934SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '934SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '933SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '933SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '832P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '832P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '831SH s'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '831SHs'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '831SH KT'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '831SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '830SH Premium'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '830SHp'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '731SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '731SC'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '831P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '831P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '930CA'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '930CA'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '830SH for Biz'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '830SHe'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '830N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '830N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '932SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '932SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '831SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '831SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '930P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '930P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '831T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '831T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '830T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '830T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '931SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*1024'
+  "x-jphone-name": '931SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '930SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '930SC'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '930SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '930SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '830CA'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '830CA'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '830P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '830P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '830SH s'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320 '
+  "x-jphone-name": '830SHs'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '830SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '830SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '824T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '824T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '823T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '823T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '921P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '921P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '824P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '824P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '923SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '923SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '824SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '824SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '821N /821N GLA'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '821N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '820N'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '820N'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '825SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '825SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '823P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*427'
+  "x-jphone-name": '823P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '815T PB'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '815T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '922SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '854*480'
+  "x-jphone-name": '922SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '921T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '921T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '921SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '921SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '920T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '920T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '920SH YK'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '920SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '920SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '920SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '920SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '920SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '920P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": '920P'
+  "x-jphone-smaf": '128/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '913SH G'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '913SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '913SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '913SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '912T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '912T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '912SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '912SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '911T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*800'
+  "x-jphone-name": '911T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '911SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '911SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '910T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '910T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '910SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": '910SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '905SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": 'V905SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '904T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V904T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '904SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": 'V904SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '903T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V903T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '903SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V903SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '902T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V902T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '902SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V902SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '823SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '823SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '822T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '822T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '822SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '822SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '822P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '822P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '821T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '821T'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '821SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '821SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '821SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '821SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '821P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '821P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '820T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '820T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '820SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '820SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '820SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '820SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '820P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": '820P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '816SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '816SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '815T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '815T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '815SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": '815SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '814T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '814T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '814SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": '814SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '813T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '813T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '813SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '813SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '813SH for Biz'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '813SHe'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '812T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '812T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '812SH　Premium'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '812SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '812SH s2'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '812SHs'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '812SH s'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '812SHs'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '812SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '812SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '811T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '811T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '811SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": '811SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '810T'
+  "x-jphone-color": 'C262144 '
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '810T '
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '810SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '480*640'
+  "x-jphone-name": '810SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '810P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '810P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '805SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '805SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '804SS'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V804SS'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '804SH'
+  "x-jphone-color": 'C242144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V804SH'
+  "x-jphone-smaf": '128/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '804NK'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V804NK'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '804N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V804N'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '803T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V803T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '802SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V802SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '802SE'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '176*220'
+  "x-jphone-name": 'V802SE'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '802N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V802N'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '709SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '709SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '708SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '320*240'
+  "x-jphone-name": '708SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '707SC�U'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '707SC2'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '707SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '707SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '706SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '706SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '706P'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '706P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '706N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '706N'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '705T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V705T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '705SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V705SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '705SC'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '705SC'
+  "x-jphone-smaf": '64/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '705P /705Px'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '705P'
+  "x-jphone-smaf": '40/pcm'
+  "x-jphone-sound": ~
+- 
+  "model": '705NK'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '705NK'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '705N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": '705N'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '703SHf'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V703SHf'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '703SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V703SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '703N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*320'
+  "x-jphone-name": 'V703N'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": '702sMO'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '176*220'
+  "x-jphone-name": 'V702sMO'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '702NK�U(NOKIA 6680)'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '176*208'
+  "x-jphone-name": 'V702NK2'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '702NK(NOKIA 6630)'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '176*208'
+  "x-jphone-name": 'V702NK'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": '702MO'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '176*220'
+  "x-jphone-name": 'V702MO'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": ~
+- 
+  "model": 'DM005SH'
+  "x-jphone-color": 'C16777216'
+  "x-jphone-display": '480*854'
+  "x-jphone-name": 'DM005SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": 'DM004SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": 'DM004SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": 'DM003SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": 'DM003SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": 'DM002SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": 'DM002SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": 'DM001SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*400'
+  "x-jphone-name": 'DM001SH'
+  "x-jphone-smaf": '40/pcm/grf/rs'
+  "x-jphone-sound": ~
+- 
+  "model": 'V604T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V604T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V604SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V604SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V603T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V603T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V603SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V603SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V602T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V602T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V602SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V602SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V601T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V601T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V502T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V502T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V501T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'V501T'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V501SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V501SH'
+  "x-jphone-smaf": '64/pcm/grf/rs'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V601SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V601SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH53'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'J-SH53'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V601N'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '160*180'
+  "x-jphone-name": 'V601N'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T51'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '144*144'
+  "x-jphone-name": 'J-T51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH52'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-SH52'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH51'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-SH51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SA51'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '132*144'
+  "x-jphone-name": 'J-SA51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-P51'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-P51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-N51'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '160*180'
+  "x-jphone-name": 'J-N51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-K51'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '128*128'
+  "x-jphone-name": 'J-K51'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V403SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V403SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V402SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V402SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V401T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '222*261'
+  "x-jphone-name": 'V401T'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V401SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V401SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V401D'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*265'
+  "x-jphone-name": 'V401D'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V302SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V302SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V301SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V301SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T08'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '222*261'
+  "x-jphone-name": 'J-T08'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T06'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-T06'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T010'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*261'
+  "x-jphone-name": 'J-T10'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH09'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-SH09'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH08'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-SH08'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH07'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-SH07'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH010'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'J-SH10'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-N05'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '160*180'
+  "x-jphone-name": 'J-N05'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-N04'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-N04'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D08'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '132*136'
+  "x-jphone-name": 'J-D08'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D06'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '132*126'
+  "x-jphone-name": 'J-D06'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D05'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '132*126'
+  "x-jphone-name": 'J-D05'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V401SA'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V401SA'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V303T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '222*261'
+  "x-jphone-name": 'V303T'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V302T'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '144*140'
+  "x-jphone-name": 'V302T'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V301T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '222*261'
+  "x-jphone-name": 'V301T'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V301D'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '132*136'
+  "x-jphone-name": 'V301D'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V201SH'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '240*260'
+  "x-jphone-name": 'V201SH'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'V102D'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '128*96'
+  "x-jphone-name": 'V102D'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T09'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '144*144'
+  "x-jphone-name": 'J-T09'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T07'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '144*136'
+  "x-jphone-name": 'J-T07'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T05'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*112'
+  "x-jphone-name": 'J-T05'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-T04'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*90'
+  "x-jphone-name": 'J-T04'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '3'
+- 
+  "model": 'J-SH06'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '96*104'
+  "x-jphone-name": 'J-SH06'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH05'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-SH05'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH04B'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*104'
+  "x-jphone-name": 'J-SH04B'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH04'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*104'
+  "x-jphone-name": 'J-SH04'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SH03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*104'
+  "x-jphone-name": 'J-SH03'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '4'
+- 
+  "model": 'J-SH02'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*84'
+  "x-jphone-name": 'J-SH02'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '3'
+- 
+  "model": 'J-SA06'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '132*144'
+  "x-jphone-name": 'J-SA06'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SA05'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*112'
+  "x-jphone-name": 'J-SA05'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SA04'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-SA04'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SA03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-SA03'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-SA02'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*76'
+  "x-jphone-name": 'J-SA02'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '3'
+- 
+  "model": 'J-PE03�U'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*96'
+  "x-jphone-name": 'J-PE03B'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-PE03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*96'
+  "x-jphone-name": 'J-PE03'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-P03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '96*95'
+  "x-jphone-name": 'J-P03'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-P02'
+  "x-jphone-color": 'G4'
+  "x-jphone-display": '96*89'
+  "x-jphone-name": 'J-P02'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '3'
+- 
+  "model": 'J-NM02'
+  "x-jphone-color": 'C65536'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-NM02'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-NM01'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-NM01'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-N03�U'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-N03B'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-N03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*126'
+  "x-jphone-name": 'J-N03'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-K05'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*110'
+  "x-jphone-name": 'J-K05'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-K04'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*110'
+  "x-jphone-name": 'J-K04'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-K03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*110'
+  "x-jphone-name": 'J-K03'
+  "x-jphone-smaf": '4'
+  "x-jphone-sound": '4'
+- 
+  "model": 'J-DN03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*130'
+  "x-jphone-name": 'J-DN03'
+  "x-jphone-smaf": '16/pcm/grf'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-DN02'
+  "x-jphone-color": 'G4'
+  "x-jphone-display": '116*122'
+  "x-jphone-name": 'J-DN02'
+  "x-jphone-smaf": ~
+  "x-jphone-sound": '4'
+- 
+  "model": 'J-D31'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-D31'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D07'
+  "x-jphone-color": 'C4096'
+  "x-jphone-display": '128*96'
+  "x-jphone-name": 'J-D07'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D04'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-D04'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '5'
+- 
+  "model": 'J-D03'
+  "x-jphone-color": 'C256'
+  "x-jphone-display": '120*117'
+  "x-jphone-name": 'J-D03'
+  "x-jphone-smaf": '16/pcm'
+  "x-jphone-sound": '3'
+- 
+  "model": '304T'
+  "x-jphone-color": 'C262144'
+  "x-jphone-display": '222*261'
+  "x-jphone-name": 'V304T'
+  "x-jphone-smaf": '40/pcm/grf'
+  "x-jphone-sound": '5'

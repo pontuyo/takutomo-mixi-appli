@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+# require 'temp_dir'
+# TempDir.create do |dir|
+#Dir.chdir(dir) do 
+#  system("svn co http://svn.tracfort.jp/svn/dino-symfony/plugins/sfMobileCarrierJPPlugin")
+Dir.chdir("plugins/sfMobileCarrierJPPlugin") do
+  system("svn up")
+  Dir.chdir("data") do
+    system("../bin/mobileinfo")
+    Dir.glob("*.yml") do |yaml|
+      str = ""
+      File::open(yaml) do |f|
+        str = f.read.gsub(/<\?/,"< ?")
+      end
+      File::open(yaml,'w') do |f|
+        f.puts(str)
+      end
+    end
+  end
+  system("php ./bin/generate-sfBaseMobileCarrierJP.php|php_beautifier > ./lib/sfBaseMobileCarrierJP.class.php")
+  system("svn ci -m 'updated by xt1'")
+end
+
+
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.6.2" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfWebBrowserPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>Standalone HTTP client</summary>
+ <description>The sfWebBrowserPlugin proposes an HTTP client capable of making web requests. The interface is similar to that of sfTestBrowser.</description>
+ <lead>
+  <name>François Zaninotto</name>
+  <user>fzaninotto</user>
+  <email>francois.zaninotto@symfony-project.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-05-12</date>
+ <time>15:46:56</time>
+ <version>
+  <release>1.1.2</release>
+  <api>1.1.2</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="75f4a1c23bd0cd24f82b8758fce92f7f" name="lib/sfCurlAdapter.class.php" role="data"/>
+   <file md5sum="566d09923c07a01581cdb382b51061df" name="lib/sfFopenAdapter.class.php" role="data"/>
+   <file md5sum="f4f1fcdc1f949f624d82c15a41de5eab" name="lib/sfSocketsAdapter.class.php" role="data"/>
+   <file md5sum="da0f80ca4be0a7b49e3969b30f540e82" name="lib/sfWebBrowser.class.php" role="data"/>
+   <file md5sum="2f39ae64a4c00e7e9a7f41e4d92d5bf4" name="lib/sfWebBrowserInvalidResponseException.class.php" role="data"/>
+   <file md5sum="6b6c4197827c375a1e6db7e7b5a36c34" name="README" role="data"/>
+   <file md5sum="e3129364106e59e5c6b572234b914ec7" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.2</release>
+    <api>1.1.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2009-05-12</date>
+   <notes>* francois: Fixed sfCurlAdapter destructor
+* francois: Fixed sf1.2 compatibility issue for custom exception
+* francois: Fixed a few limit case bugs and made the tests pass</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.1</release>
+    <api>1.1.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2009-04-22</date>
+   <notes>* francois: Fixed README syntax for parameters array
+* bmeynell: Fixed custom options in `sfCurlAdapter`</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2008-09-23</date>
+   <notes>* francois: Translated README to Markdown
+* francois: Added support for custom options in `sfCurlAdapter`
+* francois: Added suppot for Timeout with `sfCurlAdapter` (based on a patch by adoanhuu)
+* blacksun: Allow for SSL certificate verification
+* francois: Added a test to check exceptions thrown by `getResponseXML`
+* bmeynell: added multipart file upload support to `sfCurlAdapter`
+* bmeynell: fixed regex in getResponseBody() which was returning an empty body
+* bmeynell: `sfCurlAdapter`: Added new options: 'cookies', 'cookies_dir', 'cookies_file', 'verbose', 'verbose_log'
+* bmeynell: `sfCurlAdapter`: Increased speed by Moving some initialization from call() to the constructer
+* tristan:  Easier management of invalid XML responses
+* francois: Fixed a bug in `sfFopenAdapter` error handler
+* bmeynell: Added chunked transfer encoding support to `sfSocketsAdapter`
+* bmeynell: Added support for 301 redirects in `sfSocketsAdapter`</notes>
+  </release>
+ </changelog>
+</package>

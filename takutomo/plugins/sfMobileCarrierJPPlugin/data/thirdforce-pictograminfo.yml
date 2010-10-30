@@ -1,0 +1,1414 @@
+--- 
+- 
+  "sjis": '1b2447210f'
+  "unicode": 'E001'
+- 
+  "sjis": '1b2447220f'
+  "unicode": 'E002'
+- 
+  "sjis": '1b2447230f'
+  "unicode": 'E003'
+- 
+  "sjis": '1b2447240f'
+  "unicode": 'E004'
+- 
+  "sjis": '1b2447250f'
+  "unicode": 'E005'
+- 
+  "sjis": '1b2447260f'
+  "unicode": 'E006'
+- 
+  "sjis": '1b2447270f'
+  "unicode": 'E007'
+- 
+  "sjis": '1b2447280f'
+  "unicode": 'E008'
+- 
+  "sjis": '1b2447290f'
+  "unicode": 'E009'
+- 
+  "sjis": '1b24472a0f'
+  "unicode": 'E00A'
+- 
+  "sjis": '1b24472b0f'
+  "unicode": 'E00B'
+- 
+  "sjis": '1b24472c0f'
+  "unicode": 'E00C'
+- 
+  "sjis": '1b24472d0f'
+  "unicode": 'E00D'
+- 
+  "sjis": '1b24472e0f'
+  "unicode": 'E00E'
+- 
+  "sjis": '1b24472f0f'
+  "unicode": 'E00F'
+- 
+  "sjis": '1b2447300f'
+  "unicode": 'E010'
+- 
+  "sjis": '1b2447310f'
+  "unicode": 'E011'
+- 
+  "sjis": '1b2447320f'
+  "unicode": 'E012'
+- 
+  "sjis": '1b2447330f'
+  "unicode": 'E013'
+- 
+  "sjis": '1b2447340f'
+  "unicode": 'E014'
+- 
+  "sjis": '1b2447350f'
+  "unicode": 'E015'
+- 
+  "sjis": '1b2447360f'
+  "unicode": 'E016'
+- 
+  "sjis": '1b2447370f'
+  "unicode": 'E017'
+- 
+  "sjis": '1b2447380f'
+  "unicode": 'E018'
+- 
+  "sjis": '1b2447390f'
+  "unicode": 'E019'
+- 
+  "sjis": '1b24473a0f'
+  "unicode": 'E01A'
+- 
+  "sjis": '1b24473b0f'
+  "unicode": 'E01B'
+- 
+  "sjis": '1b24473c0f'
+  "unicode": 'E01C'
+- 
+  "sjis": '1b24473d0f'
+  "unicode": 'E01D'
+- 
+  "sjis": '1b24473e0f'
+  "unicode": 'E01E'
+- 
+  "sjis": '1b24473f0f'
+  "unicode": 'E01F'
+- 
+  "sjis": '1b2447400f'
+  "unicode": 'E020'
+- 
+  "sjis": '1b2447410f'
+  "unicode": 'E021'
+- 
+  "sjis": '1b2447420f'
+  "unicode": 'E022'
+- 
+  "sjis": '1b2447430f'
+  "unicode": 'E023'
+- 
+  "sjis": '1b2447440f'
+  "unicode": 'E024'
+- 
+  "sjis": '1b2447450f'
+  "unicode": 'E025'
+- 
+  "sjis": '1b2447460f'
+  "unicode": 'E026'
+- 
+  "sjis": '1b2447470f'
+  "unicode": 'E027'
+- 
+  "sjis": '1b2447480f'
+  "unicode": 'E028'
+- 
+  "sjis": '1b2447490f'
+  "unicode": 'E029'
+- 
+  "sjis": '1b24474a0f'
+  "unicode": 'E02A'
+- 
+  "sjis": '1b24474b0f'
+  "unicode": 'E02B'
+- 
+  "sjis": '1b24474c0f'
+  "unicode": 'E02C'
+- 
+  "sjis": '1b24474d0f'
+  "unicode": 'E02D'
+- 
+  "sjis": '1b24474e0f'
+  "unicode": 'E02E'
+- 
+  "sjis": '1b24474f0f'
+  "unicode": 'E02F'
+- 
+  "sjis": '1b2447500f'
+  "unicode": 'E030'
+- 
+  "sjis": '1b2447510f'
+  "unicode": 'E031'
+- 
+  "sjis": '1b2447520f'
+  "unicode": 'E032'
+- 
+  "sjis": '1b2447530f'
+  "unicode": 'E033'
+- 
+  "sjis": '1b2447540f'
+  "unicode": 'E034'
+- 
+  "sjis": '1b2447550f'
+  "unicode": 'E035'
+- 
+  "sjis": '1b2447560f'
+  "unicode": 'E036'
+- 
+  "sjis": '1b2447570f'
+  "unicode": 'E037'
+- 
+  "sjis": '1b2447580f'
+  "unicode": 'E038'
+- 
+  "sjis": '1b2447590f'
+  "unicode": 'E039'
+- 
+  "sjis": '1b24475a0f'
+  "unicode": 'E03A'
+- 
+  "sjis": '1b24475b0f'
+  "unicode": 'E03B'
+- 
+  "sjis": '1b24475c0f'
+  "unicode": 'E03C'
+- 
+  "sjis": '1b24475d0f'
+  "unicode": 'E03D'
+- 
+  "sjis": '1b24475e0f'
+  "unicode": 'E03E'
+- 
+  "sjis": '1b24475f0f'
+  "unicode": 'E03F'
+- 
+  "sjis": '1b2447600f'
+  "unicode": 'E040'
+- 
+  "sjis": '1b2447610f'
+  "unicode": 'E041'
+- 
+  "sjis": '1b2447620f'
+  "unicode": 'E042'
+- 
+  "sjis": '1b2447630f'
+  "unicode": 'E043'
+- 
+  "sjis": '1b2447640f'
+  "unicode": 'E044'
+- 
+  "sjis": '1b2447650f'
+  "unicode": 'E045'
+- 
+  "sjis": '1b2447660f'
+  "unicode": 'E046'
+- 
+  "sjis": '1b2447670f'
+  "unicode": 'E047'
+- 
+  "sjis": '1b2447680f'
+  "unicode": 'E048'
+- 
+  "sjis": '1b2447690f'
+  "unicode": 'E049'
+- 
+  "sjis": '1b24476a0f'
+  "unicode": 'E04A'
+- 
+  "sjis": '1b24476b0f'
+  "unicode": 'E04B'
+- 
+  "sjis": '1b24476c0f'
+  "unicode": 'E04C'
+- 
+  "sjis": '1b24476d0f'
+  "unicode": 'E04D'
+- 
+  "sjis": '1b24476e0f'
+  "unicode": 'E04E'
+- 
+  "sjis": '1b24476f0f'
+  "unicode": 'E04F'
+- 
+  "sjis": '1b2447700f'
+  "unicode": 'E050'
+- 
+  "sjis": '1b2447710f'
+  "unicode": 'E051'
+- 
+  "sjis": '1b2447720f'
+  "unicode": 'E052'
+- 
+  "sjis": '1b2447730f'
+  "unicode": 'E053'
+- 
+  "sjis": '1b2447740f'
+  "unicode": 'E054'
+- 
+  "sjis": '1b2447750f'
+  "unicode": 'E055'
+- 
+  "sjis": '1b2447760f'
+  "unicode": 'E056'
+- 
+  "sjis": '1b2447770f'
+  "unicode": 'E057'
+- 
+  "sjis": '1b2447780f'
+  "unicode": 'E058'
+- 
+  "sjis": '1b2447790f'
+  "unicode": 'E059'
+- 
+  "sjis": '1b24477a0f'
+  "unicode": 'E05A'
+- 
+  "sjis": '1b2445210f'
+  "unicode": 'E101'
+- 
+  "sjis": '1b2445220f'
+  "unicode": 'E102'
+- 
+  "sjis": '1b2445230f'
+  "unicode": 'E103'
+- 
+  "sjis": '1b2445240f'
+  "unicode": 'E104'
+- 
+  "sjis": '1b2445250f'
+  "unicode": 'E105'
+- 
+  "sjis": '1b2445260f'
+  "unicode": 'E106'
+- 
+  "sjis": '1b2445270f'
+  "unicode": 'E107'
+- 
+  "sjis": '1b2445280f'
+  "unicode": 'E108'
+- 
+  "sjis": '1b2445290f'
+  "unicode": 'E109'
+- 
+  "sjis": '1b24452a0f'
+  "unicode": 'E10A'
+- 
+  "sjis": '1b24452b0f'
+  "unicode": 'E10B'
+- 
+  "sjis": '1b24452c0f'
+  "unicode": 'E10C'
+- 
+  "sjis": '1b24452d0f'
+  "unicode": 'E10D'
+- 
+  "sjis": '1b24452e0f'
+  "unicode": 'E10E'
+- 
+  "sjis": '1b24452f0f'
+  "unicode": 'E10F'
+- 
+  "sjis": '1b2445300f'
+  "unicode": 'E110'
+- 
+  "sjis": '1b2445310f'
+  "unicode": 'E111'
+- 
+  "sjis": '1b2445320f'
+  "unicode": 'E112'
+- 
+  "sjis": '1b2445330f'
+  "unicode": 'E113'
+- 
+  "sjis": '1b2445340f'
+  "unicode": 'E114'
+- 
+  "sjis": '1b2445350f'
+  "unicode": 'E115'
+- 
+  "sjis": '1b2445360f'
+  "unicode": 'E116'
+- 
+  "sjis": '1b2445370f'
+  "unicode": 'E117'
+- 
+  "sjis": '1b2445380f'
+  "unicode": 'E118'
+- 
+  "sjis": '1b2445390f'
+  "unicode": 'E119'
+- 
+  "sjis": '1b24453a0f'
+  "unicode": 'E11A'
+- 
+  "sjis": '1b24453b0f'
+  "unicode": 'E11B'
+- 
+  "sjis": '1b24453c0f'
+  "unicode": 'E11C'
+- 
+  "sjis": '1b24453d0f'
+  "unicode": 'E11D'
+- 
+  "sjis": '1b24453e0f'
+  "unicode": 'E11E'
+- 
+  "sjis": '1b24453f0f'
+  "unicode": 'E11F'
+- 
+  "sjis": '1b2445400f'
+  "unicode": 'E120'
+- 
+  "sjis": '1b2445410f'
+  "unicode": 'E121'
+- 
+  "sjis": '1b2445420f'
+  "unicode": 'E122'
+- 
+  "sjis": '1b2445430f'
+  "unicode": 'E123'
+- 
+  "sjis": '1b2445440f'
+  "unicode": 'E124'
+- 
+  "sjis": '1b2445450f'
+  "unicode": 'E125'
+- 
+  "sjis": '1b2445460f'
+  "unicode": 'E126'
+- 
+  "sjis": '1b2445470f'
+  "unicode": 'E127'
+- 
+  "sjis": '1b2445480f'
+  "unicode": 'E128'
+- 
+  "sjis": '1b2445490f'
+  "unicode": 'E129'
+- 
+  "sjis": '1b24454a0f'
+  "unicode": 'E12A'
+- 
+  "sjis": '1b24454b0f'
+  "unicode": 'E12B'
+- 
+  "sjis": '1b24454c0f'
+  "unicode": 'E12C'
+- 
+  "sjis": '1b24454d0f'
+  "unicode": 'E12D'
+- 
+  "sjis": '1b24454e0f'
+  "unicode": 'E12E'
+- 
+  "sjis": '1b24454f0f'
+  "unicode": 'E12F'
+- 
+  "sjis": '1b2445500f'
+  "unicode": 'E130'
+- 
+  "sjis": '1b2445510f'
+  "unicode": 'E131'
+- 
+  "sjis": '1b2445520f'
+  "unicode": 'E132'
+- 
+  "sjis": '1b2445530f'
+  "unicode": 'E133'
+- 
+  "sjis": '1b2445540f'
+  "unicode": 'E134'
+- 
+  "sjis": '1b2445550f'
+  "unicode": 'E135'
+- 
+  "sjis": '1b2445560f'
+  "unicode": 'E136'
+- 
+  "sjis": '1b2445570f'
+  "unicode": 'E137'
+- 
+  "sjis": '1b2445580f'
+  "unicode": 'E138'
+- 
+  "sjis": '1b2445590f'
+  "unicode": 'E139'
+- 
+  "sjis": '1b24455a0f'
+  "unicode": 'E13A'
+- 
+  "sjis": '1b24455b0f'
+  "unicode": 'E13B'
+- 
+  "sjis": '1b24455c0f'
+  "unicode": 'E13C'
+- 
+  "sjis": '1b24455d0f'
+  "unicode": 'E13D'
+- 
+  "sjis": '1b24455e0f'
+  "unicode": 'E13E'
+- 
+  "sjis": '1b24455f0f'
+  "unicode": 'E13F'
+- 
+  "sjis": '1b2445600f'
+  "unicode": 'E140'
+- 
+  "sjis": '1b2445610f'
+  "unicode": 'E141'
+- 
+  "sjis": '1b2445620f'
+  "unicode": 'E142'
+- 
+  "sjis": '1b2445630f'
+  "unicode": 'E143'
+- 
+  "sjis": '1b2445640f'
+  "unicode": 'E144'
+- 
+  "sjis": '1b2445650f'
+  "unicode": 'E145'
+- 
+  "sjis": '1b2445660f'
+  "unicode": 'E146'
+- 
+  "sjis": '1b2445670f'
+  "unicode": 'E147'
+- 
+  "sjis": '1b2445680f'
+  "unicode": 'E148'
+- 
+  "sjis": '1b2445690f'
+  "unicode": 'E149'
+- 
+  "sjis": '1b24456a0f'
+  "unicode": 'E14A'
+- 
+  "sjis": '1b24456b0f'
+  "unicode": 'E14B'
+- 
+  "sjis": '1b24456c0f'
+  "unicode": 'E14C'
+- 
+  "sjis": '1b24456d0f'
+  "unicode": 'E14D'
+- 
+  "sjis": '1b24456e0f'
+  "unicode": 'E14E'
+- 
+  "sjis": '1b24456f0f'
+  "unicode": 'E14F'
+- 
+  "sjis": '1b2445700f'
+  "unicode": 'E150'
+- 
+  "sjis": '1b2445710f'
+  "unicode": 'E151'
+- 
+  "sjis": '1b2445720f'
+  "unicode": 'E152'
+- 
+  "sjis": '1b2445730f'
+  "unicode": 'E153'
+- 
+  "sjis": '1b2445740f'
+  "unicode": 'E154'
+- 
+  "sjis": '1b2445750f'
+  "unicode": 'E155'
+- 
+  "sjis": '1b2445760f'
+  "unicode": 'E156'
+- 
+  "sjis": '1b2445770f'
+  "unicode": 'E157'
+- 
+  "sjis": '1b2445780f'
+  "unicode": 'E158'
+- 
+  "sjis": '1b2445790f'
+  "unicode": 'E159'
+- 
+  "sjis": '1b24457a0f'
+  "unicode": 'E15A'
+- 
+  "sjis": '1b2446210f'
+  "unicode": 'E201'
+- 
+  "sjis": '1b2446220f'
+  "unicode": 'E202'
+- 
+  "sjis": '1b2446230f'
+  "unicode": 'E203'
+- 
+  "sjis": '1b2446240f'
+  "unicode": 'E204'
+- 
+  "sjis": '1b2446250f'
+  "unicode": 'E205'
+- 
+  "sjis": '1b2446260f'
+  "unicode": 'E206'
+- 
+  "sjis": '1b2446270f'
+  "unicode": 'E207'
+- 
+  "sjis": '1b2446280f'
+  "unicode": 'E208'
+- 
+  "sjis": '1b2446290f'
+  "unicode": 'E209'
+- 
+  "sjis": '1b24462a0f'
+  "unicode": 'E20A'
+- 
+  "sjis": '1b24462b0f'
+  "unicode": 'E20B'
+- 
+  "sjis": '1b24462c0f'
+  "unicode": 'E20C'
+- 
+  "sjis": '1b24462d0f'
+  "unicode": 'E20D'
+- 
+  "sjis": '1b24462e0f'
+  "unicode": 'E20E'
+- 
+  "sjis": '1b24462f0f'
+  "unicode": 'E20F'
+- 
+  "sjis": '1b2446300f'
+  "unicode": 'E210'
+- 
+  "sjis": '1b2446310f'
+  "unicode": 'E211'
+- 
+  "sjis": '1b2446320f'
+  "unicode": 'E212'
+- 
+  "sjis": '1b2446330f'
+  "unicode": 'E213'
+- 
+  "sjis": '1b2446340f'
+  "unicode": 'E214'
+- 
+  "sjis": '1b2446350f'
+  "unicode": 'E215'
+- 
+  "sjis": '1b2446360f'
+  "unicode": 'E216'
+- 
+  "sjis": '1b2446370f'
+  "unicode": 'E217'
+- 
+  "sjis": '1b2446380f'
+  "unicode": 'E218'
+- 
+  "sjis": '1b2446390f'
+  "unicode": 'E219'
+- 
+  "sjis": '1b24463a0f'
+  "unicode": 'E21A'
+- 
+  "sjis": '1b24463b0f'
+  "unicode": 'E21B'
+- 
+  "sjis": '1b24463c0f'
+  "unicode": 'E21C'
+- 
+  "sjis": '1b24463d0f'
+  "unicode": 'E21D'
+- 
+  "sjis": '1b24463e0f'
+  "unicode": 'E21E'
+- 
+  "sjis": '1b24463f0f'
+  "unicode": 'E21F'
+- 
+  "sjis": '1b2446400f'
+  "unicode": 'E220'
+- 
+  "sjis": '1b2446410f'
+  "unicode": 'E221'
+- 
+  "sjis": '1b2446420f'
+  "unicode": 'E222'
+- 
+  "sjis": '1b2446430f'
+  "unicode": 'E223'
+- 
+  "sjis": '1b2446440f'
+  "unicode": 'E224'
+- 
+  "sjis": '1b2446450f'
+  "unicode": 'E225'
+- 
+  "sjis": '1b2446460f'
+  "unicode": 'E226'
+- 
+  "sjis": '1b2446470f'
+  "unicode": 'E227'
+- 
+  "sjis": '1b2446480f'
+  "unicode": 'E228'
+- 
+  "sjis": '1b2446490f'
+  "unicode": 'E229'
+- 
+  "sjis": '1b24464a0f'
+  "unicode": 'E22A'
+- 
+  "sjis": '1b24464b0f'
+  "unicode": 'E22B'
+- 
+  "sjis": '1b24464c0f'
+  "unicode": 'E22C'
+- 
+  "sjis": '1b24464d0f'
+  "unicode": 'E22D'
+- 
+  "sjis": '1b24464e0f'
+  "unicode": 'E22E'
+- 
+  "sjis": '1b24464f0f'
+  "unicode": 'E22F'
+- 
+  "sjis": '1b2446500f'
+  "unicode": 'E230'
+- 
+  "sjis": '1b2446510f'
+  "unicode": 'E231'
+- 
+  "sjis": '1b2446520f'
+  "unicode": 'E232'
+- 
+  "sjis": '1b2446530f'
+  "unicode": 'E233'
+- 
+  "sjis": '1b2446540f'
+  "unicode": 'E234'
+- 
+  "sjis": '1b2446550f'
+  "unicode": 'E235'
+- 
+  "sjis": '1b2446560f'
+  "unicode": 'E236'
+- 
+  "sjis": '1b2446570f'
+  "unicode": 'E237'
+- 
+  "sjis": '1b2446580f'
+  "unicode": 'E238'
+- 
+  "sjis": '1b2446590f'
+  "unicode": 'E239'
+- 
+  "sjis": '1b24465a0f'
+  "unicode": 'E23A'
+- 
+  "sjis": '1b24465b0f'
+  "unicode": 'E23B'
+- 
+  "sjis": '1b24465c0f'
+  "unicode": 'E23C'
+- 
+  "sjis": '1b24465d0f'
+  "unicode": 'E23D'
+- 
+  "sjis": '1b24465e0f'
+  "unicode": 'E23E'
+- 
+  "sjis": '1b24465f0f'
+  "unicode": 'E23F'
+- 
+  "sjis": '1b2446600f'
+  "unicode": 'E240'
+- 
+  "sjis": '1b2446610f'
+  "unicode": 'E241'
+- 
+  "sjis": '1b2446620f'
+  "unicode": 'E242'
+- 
+  "sjis": '1b2446630f'
+  "unicode": 'E243'
+- 
+  "sjis": '1b2446640f'
+  "unicode": 'E244'
+- 
+  "sjis": '1b2446650f'
+  "unicode": 'E245'
+- 
+  "sjis": '1b2446660f'
+  "unicode": 'E246'
+- 
+  "sjis": '1b2446670f'
+  "unicode": 'E247'
+- 
+  "sjis": '1b2446680f'
+  "unicode": 'E248'
+- 
+  "sjis": '1b2446690f'
+  "unicode": 'E249'
+- 
+  "sjis": '1b24466a0f'
+  "unicode": 'E24A'
+- 
+  "sjis": '1b24466b0f'
+  "unicode": 'E24B'
+- 
+  "sjis": '1b24466c0f'
+  "unicode": 'E24C'
+- 
+  "sjis": '1b24466d0f'
+  "unicode": 'E24D'
+- 
+  "sjis": '1b24466e0f'
+  "unicode": 'E24E'
+- 
+  "sjis": '1b24466f0f'
+  "unicode": 'E24F'
+- 
+  "sjis": '1b2446700f'
+  "unicode": 'E250'
+- 
+  "sjis": '1b2446710f'
+  "unicode": 'E251'
+- 
+  "sjis": '1b2446720f'
+  "unicode": 'E252'
+- 
+  "sjis": '1b2446730f'
+  "unicode": 'E253'
+- 
+  "sjis": '1b244f210f'
+  "unicode": 'E301'
+- 
+  "sjis": '1b244f220f'
+  "unicode": 'E302'
+- 
+  "sjis": '1b244f230f'
+  "unicode": 'E303'
+- 
+  "sjis": '1b244f240f'
+  "unicode": 'E304'
+- 
+  "sjis": '1b244f250f'
+  "unicode": 'E305'
+- 
+  "sjis": '1b244f260f'
+  "unicode": 'E306'
+- 
+  "sjis": '1b244f270f'
+  "unicode": 'E307'
+- 
+  "sjis": '1b244f280f'
+  "unicode": 'E308'
+- 
+  "sjis": '1b244f290f'
+  "unicode": 'E309'
+- 
+  "sjis": '1b244f2a0f'
+  "unicode": 'E30A'
+- 
+  "sjis": '1b244f2b0f'
+  "unicode": 'E30B'
+- 
+  "sjis": '1b244f2c0f'
+  "unicode": 'E30C'
+- 
+  "sjis": '1b244f2d0f'
+  "unicode": 'E30D'
+- 
+  "sjis": '1b244f2e0f'
+  "unicode": 'E30E'
+- 
+  "sjis": '1b244f2f0f'
+  "unicode": 'E30F'
+- 
+  "sjis": '1b244f300f'
+  "unicode": 'E310'
+- 
+  "sjis": '1b244f310f'
+  "unicode": 'E311'
+- 
+  "sjis": '1b244f320f'
+  "unicode": 'E312'
+- 
+  "sjis": '1b244f330f'
+  "unicode": 'E313'
+- 
+  "sjis": '1b244f340f'
+  "unicode": 'E314'
+- 
+  "sjis": '1b244f350f'
+  "unicode": 'E315'
+- 
+  "sjis": '1b244f360f'
+  "unicode": 'E316'
+- 
+  "sjis": '1b244f370f'
+  "unicode": 'E317'
+- 
+  "sjis": '1b244f380f'
+  "unicode": 'E318'
+- 
+  "sjis": '1b244f390f'
+  "unicode": 'E319'
+- 
+  "sjis": '1b244f3a0f'
+  "unicode": 'E31A'
+- 
+  "sjis": '1b244f3b0f'
+  "unicode": 'E31B'
+- 
+  "sjis": '1b244f3c0f'
+  "unicode": 'E31C'
+- 
+  "sjis": '1b244f3d0f'
+  "unicode": 'E31D'
+- 
+  "sjis": '1b244f3e0f'
+  "unicode": 'E31E'
+- 
+  "sjis": '1b244f3f0f'
+  "unicode": 'E31F'
+- 
+  "sjis": '1b244f400f'
+  "unicode": 'E320'
+- 
+  "sjis": '1b244f410f'
+  "unicode": 'E321'
+- 
+  "sjis": '1b244f420f'
+  "unicode": 'E322'
+- 
+  "sjis": '1b244f430f'
+  "unicode": 'E323'
+- 
+  "sjis": '1b244f440f'
+  "unicode": 'E324'
+- 
+  "sjis": '1b244f450f'
+  "unicode": 'E325'
+- 
+  "sjis": '1b244f460f'
+  "unicode": 'E326'
+- 
+  "sjis": '1b244f470f'
+  "unicode": 'E327'
+- 
+  "sjis": '1b244f480f'
+  "unicode": 'E328'
+- 
+  "sjis": '1b244f490f'
+  "unicode": 'E329'
+- 
+  "sjis": '1b244f4a0f'
+  "unicode": 'E32A'
+- 
+  "sjis": '1b244f4b0f'
+  "unicode": 'E32B'
+- 
+  "sjis": '1b244f4c0f'
+  "unicode": 'E32C'
+- 
+  "sjis": '1b244f4d0f'
+  "unicode": 'E32D'
+- 
+  "sjis": '1b244f4e0f'
+  "unicode": 'E32E'
+- 
+  "sjis": '1b244f4f0f'
+  "unicode": 'E32F'
+- 
+  "sjis": '1b244f500f'
+  "unicode": 'E330'
+- 
+  "sjis": '1b244f510f'
+  "unicode": 'E331'
+- 
+  "sjis": '1b244f520f'
+  "unicode": 'E332'
+- 
+  "sjis": '1b244f530f'
+  "unicode": 'E333'
+- 
+  "sjis": '1b244f540f'
+  "unicode": 'E334'
+- 
+  "sjis": '1b244f550f'
+  "unicode": 'E335'
+- 
+  "sjis": '1b244f560f'
+  "unicode": 'E336'
+- 
+  "sjis": '1b244f570f'
+  "unicode": 'E337'
+- 
+  "sjis": '1b244f580f'
+  "unicode": 'E338'
+- 
+  "sjis": '1b244f590f'
+  "unicode": 'E339'
+- 
+  "sjis": '1b244f5a0f'
+  "unicode": 'E33A'
+- 
+  "sjis": '1b244f5b0f'
+  "unicode": 'E33B'
+- 
+  "sjis": '1b244f5c0f'
+  "unicode": 'E33C'
+- 
+  "sjis": '1b244f5d0f'
+  "unicode": 'E33D'
+- 
+  "sjis": '1b244f5e0f'
+  "unicode": 'E33E'
+- 
+  "sjis": '1b244f5f0f'
+  "unicode": 'E33F'
+- 
+  "sjis": '1b244f600f'
+  "unicode": 'E340'
+- 
+  "sjis": '1b244f610f'
+  "unicode": 'E341'
+- 
+  "sjis": '1b244f620f'
+  "unicode": 'E342'
+- 
+  "sjis": '1b244f630f'
+  "unicode": 'E343'
+- 
+  "sjis": '1b244f640f'
+  "unicode": 'E344'
+- 
+  "sjis": '1b244f650f'
+  "unicode": 'E345'
+- 
+  "sjis": '1b244f660f'
+  "unicode": 'E346'
+- 
+  "sjis": '1b244f670f'
+  "unicode": 'E347'
+- 
+  "sjis": '1b244f680f'
+  "unicode": 'E348'
+- 
+  "sjis": '1b244f690f'
+  "unicode": 'E349'
+- 
+  "sjis": '1b244f6a0f'
+  "unicode": 'E34A'
+- 
+  "sjis": '1b244f6b0f'
+  "unicode": 'E34B'
+- 
+  "sjis": '1b244f6c0f'
+  "unicode": 'E34C'
+- 
+  "sjis": '1b244f6d0f'
+  "unicode": 'E34D'
+- 
+  "sjis": '1b2450210f'
+  "unicode": 'E401'
+- 
+  "sjis": '1b2450220f'
+  "unicode": 'E402'
+- 
+  "sjis": '1b2450230f'
+  "unicode": 'E403'
+- 
+  "sjis": '1b2450240f'
+  "unicode": 'E404'
+- 
+  "sjis": '1b2450250f'
+  "unicode": 'E405'
+- 
+  "sjis": '1b2450260f'
+  "unicode": 'E406'
+- 
+  "sjis": '1b2450270f'
+  "unicode": 'E407'
+- 
+  "sjis": '1b2450280f'
+  "unicode": 'E408'
+- 
+  "sjis": '1b2450290f'
+  "unicode": 'E409'
+- 
+  "sjis": '1b24502a0f'
+  "unicode": 'E40A'
+- 
+  "sjis": '1b24502b0f'
+  "unicode": 'E40B'
+- 
+  "sjis": '1b24502c0f'
+  "unicode": 'E40C'
+- 
+  "sjis": '1b24502d0f'
+  "unicode": 'E40D'
+- 
+  "sjis": '1b24502e0f'
+  "unicode": 'E40E'
+- 
+  "sjis": '1b24502f0f'
+  "unicode": 'E40F'
+- 
+  "sjis": '1b2450300f'
+  "unicode": 'E410'
+- 
+  "sjis": '1b2450310f'
+  "unicode": 'E411'
+- 
+  "sjis": '1b2450320f'
+  "unicode": 'E412'
+- 
+  "sjis": '1b2450330f'
+  "unicode": 'E413'
+- 
+  "sjis": '1b2450340f'
+  "unicode": 'E414'
+- 
+  "sjis": '1b2450350f'
+  "unicode": 'E415'
+- 
+  "sjis": '1b2450360f'
+  "unicode": 'E416'
+- 
+  "sjis": '1b2450370f'
+  "unicode": 'E417'
+- 
+  "sjis": '1b2450380f'
+  "unicode": 'E418'
+- 
+  "sjis": '1b2450390f'
+  "unicode": 'E419'
+- 
+  "sjis": '1b24503a0f'
+  "unicode": 'E41A'
+- 
+  "sjis": '1b24503b0f'
+  "unicode": 'E41B'
+- 
+  "sjis": '1b24503c0f'
+  "unicode": 'E41C'
+- 
+  "sjis": '1b24503d0f'
+  "unicode": 'E41D'
+- 
+  "sjis": '1b24503e0f'
+  "unicode": 'E41E'
+- 
+  "sjis": '1b24503f0f'
+  "unicode": 'E41F'
+- 
+  "sjis": '1b2450400f'
+  "unicode": 'E420'
+- 
+  "sjis": '1b2450410f'
+  "unicode": 'E421'
+- 
+  "sjis": '1b2450420f'
+  "unicode": 'E422'
+- 
+  "sjis": '1b2450430f'
+  "unicode": 'E423'
+- 
+  "sjis": '1b2450440f'
+  "unicode": 'E424'
+- 
+  "sjis": '1b2450450f'
+  "unicode": 'E425'
+- 
+  "sjis": '1b2450460f'
+  "unicode": 'E426'
+- 
+  "sjis": '1b2450470f'
+  "unicode": 'E427'
+- 
+  "sjis": '1b2450480f'
+  "unicode": 'E428'
+- 
+  "sjis": '1b2450490f'
+  "unicode": 'E429'
+- 
+  "sjis": '1b24504a0f'
+  "unicode": 'E42A'
+- 
+  "sjis": '1b24504b0f'
+  "unicode": 'E42B'
+- 
+  "sjis": '1b24504c0f'
+  "unicode": 'E42C'
+- 
+  "sjis": '1b24504d0f'
+  "unicode": 'E42D'
+- 
+  "sjis": '1b24504e0f'
+  "unicode": 'E42E'
+- 
+  "sjis": '1b24504f0f'
+  "unicode": 'E42F'
+- 
+  "sjis": '1b2450500f'
+  "unicode": 'E430'
+- 
+  "sjis": '1b2450510f'
+  "unicode": 'E431'
+- 
+  "sjis": '1b2450520f'
+  "unicode": 'E432'
+- 
+  "sjis": '1b2450530f'
+  "unicode": 'E433'
+- 
+  "sjis": '1b2450540f'
+  "unicode": 'E434'
+- 
+  "sjis": '1b2450550f'
+  "unicode": 'E435'
+- 
+  "sjis": '1b2450560f'
+  "unicode": 'E436'
+- 
+  "sjis": '1b2450570f'
+  "unicode": 'E437'
+- 
+  "sjis": '1b2450580f'
+  "unicode": 'E438'
+- 
+  "sjis": '1b2450590f'
+  "unicode": 'E439'
+- 
+  "sjis": '1b24505a0f'
+  "unicode": 'E43A'
+- 
+  "sjis": '1b24505b0f'
+  "unicode": 'E43B'
+- 
+  "sjis": '1b24505c0f'
+  "unicode": 'E43C'
+- 
+  "sjis": '1b24505d0f'
+  "unicode": 'E43D'
+- 
+  "sjis": '1b24505e0f'
+  "unicode": 'E43E'
+- 
+  "sjis": '1b24505f0f'
+  "unicode": 'E43F'
+- 
+  "sjis": '1b2450600f'
+  "unicode": 'E440'
+- 
+  "sjis": '1b2450610f'
+  "unicode": 'E441'
+- 
+  "sjis": '1b2450620f'
+  "unicode": 'E442'
+- 
+  "sjis": '1b2450630f'
+  "unicode": 'E443'
+- 
+  "sjis": '1b2450640f'
+  "unicode": 'E444'
+- 
+  "sjis": '1b2450650f'
+  "unicode": 'E445'
+- 
+  "sjis": '1b2450660f'
+  "unicode": 'E446'
+- 
+  "sjis": '1b2450670f'
+  "unicode": 'E447'
+- 
+  "sjis": '1b2450680f'
+  "unicode": 'E448'
+- 
+  "sjis": '1b2450690f'
+  "unicode": 'E449'
+- 
+  "sjis": '1b24506a0f'
+  "unicode": 'E44A'
+- 
+  "sjis": '1b24506b0f'
+  "unicode": 'E44B'
+- 
+  "sjis": '1b24506c0f'
+  "unicode": 'E44C'
+- 
+  "sjis": '1b2451210f'
+  "unicode": 'E501'
+- 
+  "sjis": '1b2451220f'
+  "unicode": 'E502'
+- 
+  "sjis": '1b2451230f'
+  "unicode": 'E503'
+- 
+  "sjis": '1b2451240f'
+  "unicode": 'E504'
+- 
+  "sjis": '1b2451250f'
+  "unicode": 'E505'
+- 
+  "sjis": '1b2451260f'
+  "unicode": 'E506'
+- 
+  "sjis": '1b2451270f'
+  "unicode": 'E507'
+- 
+  "sjis": '1b2451280f'
+  "unicode": 'E508'
+- 
+  "sjis": '1b2451290f'
+  "unicode": 'E509'
+- 
+  "sjis": '1b24512a0f'
+  "unicode": 'E50A'
+- 
+  "sjis": '1b24512b0f'
+  "unicode": 'E50B'
+- 
+  "sjis": '1b24512c0f'
+  "unicode": 'E50C'
+- 
+  "sjis": '1b24512d0f'
+  "unicode": 'E50D'
+- 
+  "sjis": '1b24512e0f'
+  "unicode": 'E50E'
+- 
+  "sjis": '1b24512f0f'
+  "unicode": 'E50F'
+- 
+  "sjis": '1b2451300f'
+  "unicode": 'E510'
+- 
+  "sjis": '1b2451310f'
+  "unicode": 'E511'
+- 
+  "sjis": '1b2451320f'
+  "unicode": 'E512'
+- 
+  "sjis": '1b2451330f'
+  "unicode": 'E513'
+- 
+  "sjis": '1b2451340f'
+  "unicode": 'E514'
+- 
+  "sjis": '1b2451350f'
+  "unicode": 'E515'
+- 
+  "sjis": '1b2451360f'
+  "unicode": 'E516'
+- 
+  "sjis": '1b2451370f'
+  "unicode": 'E517'
+- 
+  "sjis": '1b2451380f'
+  "unicode": 'E518'
+- 
+  "sjis": '1b2451390f'
+  "unicode": 'E519'
+- 
+  "sjis": '1b24513a0f'
+  "unicode": 'E51A'
+- 
+  "sjis": '1b24513b0f'
+  "unicode": 'E51B'
+- 
+  "sjis": '1b24513c0f'
+  "unicode": 'E51C'
+- 
+  "sjis": '1b24513d0f'
+  "unicode": 'E51D'
+- 
+  "sjis": '1b24513e0f'
+  "unicode": 'E51E'
+- 
+  "sjis": '1b24513f0f'
+  "unicode": 'E51F'
+- 
+  "sjis": '1b2451400f'
+  "unicode": 'E520'
+- 
+  "sjis": '1b2451410f'
+  "unicode": 'E521'
+- 
+  "sjis": '1b2451420f'
+  "unicode": 'E522'
+- 
+  "sjis": '1b2451430f'
+  "unicode": 'E523'
+- 
+  "sjis": '1b2451440f'
+  "unicode": 'E524'
+- 
+  "sjis": '1b2451450f'
+  "unicode": 'E525'
+- 
+  "sjis": '1b2451460f'
+  "unicode": 'E526'
+- 
+  "sjis": '1b2451470f'
+  "unicode": 'E527'
+- 
+  "sjis": '1b2451480f'
+  "unicode": 'E528'
+- 
+  "sjis": '1b2451490f'
+  "unicode": 'E529'
+- 
+  "sjis": '1b24514a0f'
+  "unicode": 'E52A'
+- 
+  "sjis": '1b24514b0f'
+  "unicode": 'E52B'
+- 
+  "sjis": '1b24514c0f'
+  "unicode": 'E52C'
+- 
+  "sjis": '1b24514d0f'
+  "unicode": 'E52D'
+- 
+  "sjis": '1b24514e0f'
+  "unicode": 'E52E'
+- 
+  "sjis": '1b24514f0f'
+  "unicode": 'E52F'
+- 
+  "sjis": '1b2451500f'
+  "unicode": 'E530'
+- 
+  "sjis": '1b2451510f'
+  "unicode": 'E531'
+- 
+  "sjis": '1b2451520f'
+  "unicode": 'E532'
+- 
+  "sjis": '1b2451530f'
+  "unicode": 'E533'
+- 
+  "sjis": '1b2451540f'
+  "unicode": 'E534'
+- 
+  "sjis": '1b2451550f'
+  "unicode": 'E535'
+- 
+  "sjis": '1b2451560f'
+  "unicode": 'E536'
+- 
+  "sjis": '1b2451570f'
+  "unicode": 'E537'

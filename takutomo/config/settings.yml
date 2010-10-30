@@ -1,0 +1,69 @@
+all:
+ takutomo:
+  url:        http://api.takutomo.com/v3/member/
+  member:  http://api.takutomo.com/v3/member/
+  register_by_guid_url: http://api.takutomo.com/v3/member/register_by_guid.php?api_key=pontuyo
+  register_by_email_url: http://api.takutomo.com/v3/member/register_by_email.php?api_key=pontuyo
+  get_profile_myself_url: http://api.takutomo.com/v3/member/get_profile_myself.php?api_key=pontuyo
+  search_driver_url: http://api.takutomo.com/v3/member/search_driver.php?api_key=pontuyo
+  search_event_url: http://api.takutomo.com/v3/member/search_event.php?api_key=pontuyo
+  get_event_detail_url: http://api.takutomo.com/v3/member/get_event_detail.php?api_key=pontuyo
+  get_profile_url: http://api.takutomo.com/v3/member/get_profile.php?api_key=pontuyo
+  get_eval_comments_url: http://api.takutomo.com/v3/member/get_eval_comments.php?api_key=pontuyo
+  add_event_comment_url: http://api.takutomo.com/v3/member/add_event_comment.php?api_key=pontuyo
+  add_event_url: http://api.takutomo.com/v3/member/add_event.php?api_key=pontuyo
+  get_attend_event_url: http://api.takutomo.com/v3/member/get_attend_event.php?api_key=pontuyo
+  forgot_password_url: http://api.takutomo.com/v3/member/forgot_password.php?api_key=pontuyo
+  reserve_driver_url: http://api.takutomo.com/v3/member/reserve_driver.php?api_key=pontuyo
+  edit_email_url: http://api.takutomo.com/v3/member/edit_email.php?api_key=pontuyo
+  edit_profile_url: http://api.takutomo.com/v3/member/edit_profile.php?api_key=pontuyo
+  delete_user_url: http://api.takutomo.com/v3/member/delete_user.php?api_key=pontuyo
+  eval_user_url: http://api.takutomo.com/v3/member/eval_user.php?api_key=pontuyo
+  get_reserved_driver_url: http://api.takutomo.com/v3/member/get_reserved_driver.php?api_key=pontuyo
+  
+ mixi:
+  index_url: http://mixi.takutomo.com/takutomo/web/
+  member_url: http://mixi.takutomo.com/takutomo/web/member
+  member_register_url: http://mixi.takutomo.com/takutomo/web/member_register
+  search_driver_url: http://mixi.takutomo.com/takutomo/web/search_driver
+  reserve_driver_url: http://mixi.takutomo.com/takutomo/web/reserve_driver
+  search_event_url: http://mixi.takutomo.com/takutomo/web/search_event
+  add_event_url: http://mixi.takutomo.com/takutomo/web/add_event
+  add_event_comment_url: http://mixi.takutomo.com/takutomo/web/add_event_comment
+  get_attend_event_url: http://mixi.takutomo.com/takutomo/web/get_attend_event
+  get_event_detail_url: http://mixi.takutomo.com/takutomo/web/get_event_detail
+  get_eval_comments_url: http://mixi.takutomo.com/takutomo/web/get_eval_comments
+  get_profile_url: http://mixi.takutomo.com/takutomo/web/get_profile
+  delete_user_url: http://mixi.takutomo.com/takutomo/web/delete_user
+  edit_email_url: http://mixi.takutomo.com/takutomo/web/edit_email
+  edit_profile_url: http://mixi.takutomo.com/takutomo/web/edit_profile
+  forgot_password_url: http://mixi.takutomo.com/takutomo/web/edit_forgot_password
+  eval_member_url: http://mixi.takutomo.com/takutomo/web/eval_member
+  eval_driver_url: http://mixi.takutomo.com/takutomo/web/eval_driver
+  eval_user_url: http://mixi.takutomo.com/takutomo/web/eval_user
+  get_reserved_driver_url: http://mixi.takutomo.com/takutomo/web/get_reserved_driver
+ 
+ opensocial:
+  person_api: http://api.mixi-platform.com/os/0.8/people/@me/@self
+  person_guid_api: http://api.mixi-platform.com/os/0.8/people/
+  persistence_api: http://api.mixi-platform.com/os/0.8/appdata/@me/@self/@app
+ 
+ geocoding:
+   url: http://www.geocoding.jp/api/
+   
+ google:
+   geo_url: http://maps.google.com/maps/geo
+   static_map_url: http://maps.google.com/maps/api/staticmap
+   key: ABQIAAAAo2gOntJdJP0vWOkOQiA33RSifarTDGdmkI_keUZoPQKhvsp4IhSo2uheTjqvLBPKuLvrIgRWj4izig
+   
+   
+ date:
+  week:
+   - "日"
+   - "月"
+   - "火"
+   - "水"
+   - "木"
+   - "金"
+   - "土"
+     

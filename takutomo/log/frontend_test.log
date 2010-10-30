@@ -1,0 +1,32 @@
+Apr 13 02:21:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:21:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /content/index with parameters array (  'module' => 'content',  'action' => 'index',)
+Apr 13 02:21:51 symfony [info] {sfFrontWebController} Action "content/index" does not exist
+Apr 13 02:21:52 symfony [err] {sfError404Exception} Action "content/index" does not exist.
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /index/index with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Apr 13 02:21:52 symfony [info] {sfFilterChain} Executing filter "mobileFilter"
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /member_register/index with parameters array (  'module' => 'member_register',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Apr 13 02:21:52 symfony [info] {sfFilterChain} Executing filter "mobileFilter"
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /registerr/index with parameters array (  'module' => 'registerr',  'action' => 'index',)
+Apr 13 02:21:52 symfony [info] {sfFrontWebController} Action "registerr/index" does not exist
+Apr 13 02:21:52 symfony [err] {sfError404Exception} Action "registerr/index" does not exist.
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /content/index with parameters array (  'module' => 'content',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfFrontWebController} Action "content/index" does not exist
+Apr 13 02:25:26 symfony [err] {sfError404Exception} Action "content/index" does not exist.
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /index/index with parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Apr 13 02:25:26 symfony [info] {sfFilterChain} Executing filter "mobileFilter"
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /member_register/index with parameters array (  'module' => 'member_register',  'action' => 'index',)
+Apr 13 02:25:26 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Apr 13 02:25:26 symfony [info] {sfFilterChain} Executing filter "mobileFilter"
+Apr 13 02:25:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 02:25:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /registerr/index with parameters array (  'module' => 'registerr',  'action' => 'index',)
+Apr 13 02:25:27 symfony [info] {sfFrontWebController} Action "registerr/index" does not exist
+Apr 13 02:25:27 symfony [err] {sfError404Exception} Action "registerr/index" does not exist.

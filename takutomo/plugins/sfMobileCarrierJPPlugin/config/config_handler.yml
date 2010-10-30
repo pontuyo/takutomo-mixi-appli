@@ -1,0 +1,4 @@
+---
+/plugins/sfMobileCarrierJPPlugin/data/*.yml:
+  class: sfSimpleYamlConfigHandler
+

@@ -1,0 +1,107 @@
+= sfMobileCarrierJPPlugin =
+
+日々変わるモバイルキャリアの情報について`symfony`で扱いやすい用にプラグイン化しました。
+
+元々perlの`WWW::MobileCarrierJP`で一日一回キャリアのウェブからスクレイピングした内容をsymfonyで使いやすいようにプラグインにしたのが始まりで、モバイル関連の判定を行っています。
+
+== インストール ==
+
+頻繁に更新されるデータが含まれていますので、Subversionを使ったチェックアウトをお勧めします。
+
+{{{
+cd plugins
+svn co http://svn.tracfort.jp/svn/dino-symfony/plugins/sfMobileCarrierJPPlugin
+cd - && symfony cc
+}}}
+
+== データの更新 ==
+
+{{{
+svn up plugins/sfMobileCarrierJPPlugin
+symfony cc
+}}}
+
+== ユーティリティ ==
+
+  * !DoCoMo or EZweb or Softbank or AirH"のIPかどうか？
+
+{{{  
+sfMobileCarrierJP::isMobileIp("xxx.xxx.xxx.xxx");
+}}}
+
+  * !DoCoMo or EZweb or SoftbankのIPかどうか？
+
+{{{ 
+sfMobileCarrierJP::isKtaiIp("xxx.xxx.xxx.xxx");
+}}}
+
+  * !DoCoMoのIPかどうか？
+  
+{{{
+sfMobileCarrierJP::isDocomoIp("xxx.xxx.xxx.xxx");
+}}}
+
+  * EZwebのIPかどうか？
+  
+{{{ 
+sfMobileCarrierJP::isEzwebIp("xxx.xxx.xxx.xxx");
+}}}
+
+  * SoftbankのIPかどうか？
+  
+{{{
+sfMobileCarrierJP::isThirdforceIp("xxx.xxx.xxx.xxx");
+}}}
+
+  * AirH"のIPかどうか？
+  
+{{{
+sfMobileCarrierJP::isAirhphoneIp("xxx.xxx.xxx.xxx");
+}}}
+
+== カスタムバリデータ ==
+
+=== `sfMobileEmailValidator` ===
+
+ケータイ用メールアドレスを判定するvalidatorです、例として以下のように利用します。
+
+{{{
+names:
+  mailaddress:
+    validators: [email, mobileEmail]
+email:
+  class: sfEmailValidator
+  param:
+    email_error: メールアドレスを入力してください。
+
+mobileEmail:
+    class:   sfMobileEmailValidator
+    param:
+      mobile_email_error: 携帯電話のメールアドレスを入力してください。
+}}}
+
+
+上とは逆に携帯電話のアドレスを使わせたくない場合以下のように`notvalid`パラメータを利用します。
+
+{{{
+names:
+  mailaddress:
+    validators: [email, mobileEmail]
+email:
+  class: sfEmailValidator
+  param:
+    email_error: メールアドレスを入力してください。
+
+mobileEmail:
+    class:   sfMobileEmailValidator
+    param:
+      notvalid: true
+      mobile_email_error: 携帯電話のメールアドレスは使えません。
+}}}
+
+
+
+== 関連項目 ==
+
+  * [http://blog.symfony.jp/2008/03/03/sfmobilecarrierjpplugin/ symfonyで開発日記:モバイル端末の情報を取得するプラグイン]
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="タクトモ"></ModulePrefs>
+  <Content type="html"><![CDATA[
+   <a href="http://mixi.takutomo.com/takutomo/web/member">takutomo</a>
+   ]]></Content>
+  
+  <Content type="url" view="mobile" href="http://mixi.takutomo.com/takutomo/web/member" />
+</Module>

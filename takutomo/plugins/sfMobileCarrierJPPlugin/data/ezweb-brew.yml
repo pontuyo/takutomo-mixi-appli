@@ -1,0 +1,577 @@
+--- 
+- 
+  "model": '対応機種'
+  "version": 'BREW®バージョン'
+- 
+  "model": '対応機種'
+  "version": 'BREW®バージョン'
+- 
+  "model": 'mamorino'
+  "version": '−'
+- 
+  "model": 'SH006'
+  "version": '4.0'
+- 
+  "model": 'lotta[iida]'
+  "version": '3.1'
+- 
+  "model": 'K004'
+  "version": '3.1'
+- 
+  "model": 'URBANO BARONE'
+  "version": '4.0'
+- 
+  "model": 'SH005'
+  "version": '4.0'
+- 
+  "model": 'BRAVIA® Phone U1'
+  "version": '4.0'
+- 
+  "model": 'SH004'
+  "version": '4.0'
+- 
+  "model": 'PRISMOID[iida]'
+  "version": '3.1'
+- 
+  "model": 'T003'
+  "version": '4.0'
+- 
+  "model": 'SH003'
+  "version": '4.0'
+- 
+  "model": 'CA004'
+  "version": '4.0'
+- 
+  "model": 'S002'
+  "version": '3.1'
+- 
+  "model": 'SA001'
+  "version": '4.0'
+- 
+  "model": 'CA003'
+  "version": '4.0'
+- 
+  "model": 'PLY[iida]'
+  "version": '4.0'
+- 
+  "model": 'K003'
+  "version": '3.1'
+- 
+  "model": 'Mobile Hi-Vision CAM Wooo'
+  "version": '4.0'
+- 
+  "model": 'misora[iida]'
+  "version": '3.1'
+- 
+  "model": 'biblio'
+  "version": '4.0'
+- 
+  "model": 'T002'
+  "version": '4.0'
+- 
+  "model": 'SH002'
+  "version": '4.0'
+- 
+  "model": 'K002'
+  "version": '3.1'
+- 
+  "model": 'Sportio water beat'
+  "version": '4.0'
+- 
+  "model": 'CA002'
+  "version": '4.0'
+- 
+  "model": 'G9[iida]'
+  "version": '4.0'
+- 
+  "model": 'S001'
+  "version": '4.0'
+- 
+  "model": 'NS02'
+  "version": '3.1'
+- 
+  "model": 'P001'
+  "version": '4.0'
+- 
+  "model": 'T001'
+  "version": '4.0'
+- 
+  "model": 'H001'
+  "version": '4.0'
+- 
+  "model": 'SH001'
+  "version": '4.0'
+- 
+  "model": 'CA001'
+  "version": '4.0'
+- 
+  "model": 'Premier3'
+  "version": '4.0'
+- 
+  "model": 'NS01'
+  "version": '3.1'
+- 
+  "model": 'K001'
+  "version": '3.1'
+- 
+  "model": 'Xmini'
+  "version": '4.0'
+- 
+  "model": 'W63H'
+  "version": '4.0'
+- 
+  "model": 'W65T'
+  "version": '4.0'
+- 
+  "model": 'W63CA'
+  "version": '4.0'
+- 
+  "model": 'W64SH'
+  "version": '4.0'
+- 
+  "model": 'W65K'
+  "version": '3.1'
+- 
+  "model": 'W64S'
+  "version": '3.1'
+- 
+  "model": 'W62P'
+  "version": '3.1'
+- 
+  "model": 'W64T'
+  "version": '4.0'
+- 
+  "model": 'W63Kカメラ無し'
+  "version": '3.1'
+- 
+  "model": 'URBANO'
+  "version": '3.1'
+- 
+  "model": 'W62PT'
+  "version": '3.1'
+- 
+  "model": 'W64SA'
+  "version": '4.0'
+- 
+  "model": 'W62CA'
+  "version": '4.0'
+- 
+  "model": 'W62H'
+  "version": '4.0'
+- 
+  "model": 'W62SH'
+  "version": '4.0'
+- 
+  "model": 're'
+  "version": '4.0'
+- 
+  "model": 'W63K'
+  "version": '3.1'
+- 
+  "model": 'Sportio'
+  "version": '4.0'
+- 
+  "model": 'W62T'
+  "version": '4.0'
+- 
+  "model": 'W63SA'
+  "version": '4.0'
+- 
+  "model": 'W62K'
+  "version": '3.1'
+- 
+  "model": 'W61S'
+  "version": '4.0'
+- 
+  "model": 'W61SA'
+  "version": '4.0'
+- 
+  "model": 'W62S'
+  "version": '3.1'
+- 
+  "model": 'W61T'
+  "version": '4.0'
+- 
+  "model": 'W61H'
+  "version": '3.1'
+- 
+  "model": 'W62SA'
+  "version": '3.1'
+- 
+  "model": 'W61PT'
+  "version": '3.1'
+- 
+  "model": 'W61P'
+  "version": '3.1'
+- 
+  "model": 'W61CA'
+  "version": '3.1'
+- 
+  "model": 'W61K'
+  "version": '3.1'
+- 
+  "model": 'W54SA'
+  "version": '4.0'
+- 
+  "model": 'W61SH'
+  "version": '3.1'
+- 
+  "model": 'W54S'
+  "version": '4.0'
+- 
+  "model": 'W56T'
+  "version": '4.0'
+- 
+  "model": 'W55T'
+  "version": '3.1'
+- 
+  "model": 'W53H'
+  "version": '3.1'
+- 
+  "model": 'W53K/W64K'
+  "version": '3.1'
+- 
+  "model": 'INFOBAR 2'
+  "version": '3.1'
+- 
+  "model": 'W44K IIカメラなしモデル'
+  "version": '3.1'
+- 
+  "model": 'W53S'
+  "version": '3.1'
+- 
+  "model": 'W53CA'
+  "version": '3.1'
+- 
+  "model": 'W53SA'
+  "version": '3.1'
+- 
+  "model": 'W54T'
+  "version": '3.1'
+- 
+  "model": 'W52SH'
+  "version": '3.1'
+- 
+  "model": 'W52CA'
+  "version": '3.1'
+- 
+  "model": 'W52P'
+  "version": '3.1'
+- 
+  "model": 'W52S'
+  "version": '3.1'
+- 
+  "model": 'W53T'
+  "version": '3.1'
+- 
+  "model": 'W52SA'
+  "version": '3.1'
+- 
+  "model": 'W52H'
+  "version": '3.1'
+- 
+  "model": 'MEDIA SKIN'
+  "version": '3.1'
+- 
+  "model": 'W51SH'
+  "version": '3.1'
+- 
+  "model": 'W51S'
+  "version": '3.1'
+- 
+  "model": 'W52T'
+  "version": '3.1'
+- 
+  "model": 'W51T'
+  "version": '3.1'
+- 
+  "model": 'W51SA'
+  "version": '3.1'
+- 
+  "model": 'W51H'
+  "version": '3.1'
+- 
+  "model": 'W51CA'
+  "version": '3.1'
+- 
+  "model": 'W51P'
+  "version": '3.1'
+- 
+  "model": 'W51K'
+  "version": '3.1'
+- 
+  "model": 'DRAPE'
+  "version": '3.1'
+- 
+  "model": 'W47T'
+  "version": '3.1'
+- 
+  "model": 'W44S'
+  "version": '3.1'
+- 
+  "model": 'W44K/K II'
+  "version": '3.1'
+- 
+  "model": 'W43SA'
+  "version": '3.1'
+- 
+  "model": 'W45T'
+  "version": '3.1'
+- 
+  "model": 'W43CA'
+  "version": '3.1'
+- 
+  "model": 'W43H/H II'
+  "version": '3.1'
+- 
+  "model": 'W43S'
+  "version": '3.1'
+- 
+  "model": 'W43K'
+  "version": '3.1'
+- 
+  "model": 'W42SA'
+  "version": '3.1'
+- 
+  "model": 'W41SH'
+  "version": '3.1'
+- 
+  "model": 'W42CA'
+  "version": '3.1'
+- 
+  "model": 'W42H'
+  "version": '3.1'
+- 
+  "model": 'W44T/T II/T III'
+  "version": '3.1'
+- 
+  "model": 'neon'
+  "version": '3.1'
+- 
+  "model": 'W43T'
+  "version": '3.1'
+- 
+  "model": 'W42S'
+  "version": '3.1'
+- 
+  "model": 'W42K'
+  "version": '3.1'
+- 
+  "model": 'W41K'
+  "version": '3.1'
+- 
+  "model": 'W41SA'
+  "version": '3.1'
+- 
+  "model": 'W41T'
+  "version": '3.1'
+- 
+  "model": 'W41H'
+  "version": '3.1'
+- 
+  "model": 'W41CA'
+  "version": '3.1'
+- 
+  "model": 'W41S'
+  "version": '3.1'
+- 
+  "model": 'PENCK'
+  "version": '2.1'
+- 
+  "model": 'W33SA/SA II'
+  "version": '3.1'
+- 
+  "model": 'W32S'
+  "version": '3.1'
+- 
+  "model": 'W32H'
+  "version": '3.1'
+- 
+  "model": 'W32SA'
+  "version": '3.1'
+- 
+  "model": 'W32T'
+  "version": '3.1'
+- 
+  "model": 'W31T'
+  "version": '3.1'
+- 
+  "model": 'W32K'
+  "version": '2.1'
+- 
+  "model": 'W31CA'
+  "version": '2.1'
+- 
+  "model": 'W31S'
+  "version": '2.1'
+- 
+  "model": 'W31K/K II'
+  "version": '2.1'
+- 
+  "model": 'W31SA/SA II'
+  "version": '2.1'
+- 
+  "model": 'W22SA'
+  "version": '2.1'
+- 
+  "model": 'W22H'
+  "version": '2.1'
+- 
+  "model": 'W21T'
+  "version": '2.1'
+- 
+  "model": 'W21CA'
+  "version": '2.1'
+- 
+  "model": 'W21SA'
+  "version": '2.1'
+- 
+  "model": 'W21S'
+  "version": '2.1'
+- 
+  "model": 'W21K'
+  "version": '2.1'
+- 
+  "model": 'Sweets cute'
+  "version": '3.1'
+- 
+  "model": 'Sweets pure'
+  "version": '2.1'
+- 
+  "model": 'G''zOne TYPE-R'
+  "version": '2.1'
+- 
+  "model": 'Sweets'
+  "version": '2.1'
+- 
+  "model": 'talby'
+  "version": '2.1'
+- 
+  "model": 'INFOBAR'
+  "version": '2.0'
+- 
+  "model": 'A5529T'
+  "version": '3.1'
+- 
+  "model": 'A5528K'
+  "version": '3.1'
+- 
+  "model": 'A5527SA'
+  "version": '2.1'
+- 
+  "model": 'A5526K'
+  "version": '3.1'
+- 
+  "model": 'A5525SA'
+  "version": '3.1'
+- 
+  "model": 'A5523T'
+  "version": '3.1'
+- 
+  "model": 'A5522SA'
+  "version": '2.1'
+- 
+  "model": 'A5521K'
+  "version": '2.1'
+- 
+  "model": 'A5520SA/SA II'
+  "version": '2.1'
+- 
+  "model": 'A5517T'
+  "version": '2.1'
+- 
+  "model": 'A5516T'
+  "version": '2.1'
+- 
+  "model": 'A5518SA'
+  "version": '2.1'
+- 
+  "model": 'A5515K'
+  "version": '2.1'
+- 
+  "model": 'A5514SA'
+  "version": '2.1'
+- 
+  "model": 'A5512CA'
+  "version": '2.1'
+- 
+  "model": 'A5511T'
+  "version": '2.1'
+- 
+  "model": 'A5509T'
+  "version": '2.1'
+- 
+  "model": 'A5507SA'
+  "version": '2.1'
+- 
+  "model": 'A5506T'
+  "version": '2.1'
+- 
+  "model": 'A5505SA'
+  "version": '2.1'
+- 
+  "model": 'A5504T'
+  "version": '2.1'
+- 
+  "model": 'A5503SA'
+  "version": '2.1'
+- 
+  "model": 'A5502K'
+  "version": '2.1'
+- 
+  "model": 'A5501T'
+  "version": '2.1'
+- 
+  "model": 'A5405SA'
+  "version": '2.0'
+- 
+  "model": 'A5306ST'
+  "version": '2.0'
+- 
+  "model": 'A5304T'
+  "version": '2.0'
+- 
+  "model": 'A1404S'
+  "version": '2.1'
+- 
+  "model": 'A1403K'
+  "version": '2.1'
+- 
+  "model": 'A1402S II (カメラ無し)'
+  "version": '2.1'
+- 
+  "model": 'A1402S II'
+  "version": '2.1'
+- 
+  "model": 'A1402S'
+  "version": '2.1'
+- 
+  "model": 'A1304T/T II'
+  "version": '2.0'
+- 
+  "model": 'A1304T (カメラ無し)'
+  "version": '2.0'
+- 
+  "model": 'E08T'
+  "version": '4.0'
+- 
+  "model": 'E07K'
+  "version": '3.1'
+- 
+  "model": 'E06SH'
+  "version": '4.0'
+- 
+  "model": 'E05SH'
+  "version": '4.0'
+- 
+  "model": 'E03CA'
+  "version": '3.1'
+- 
+  "model": 'E02SA'
+  "version": '3.1'
+- 
+  "model": 'B01K'
+  "version": '2.1'
+- 
+  "model": ' '
+  "version": ' '
