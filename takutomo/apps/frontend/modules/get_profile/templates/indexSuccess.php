@@ -1,17 +1,32 @@
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span style="font-size:small;">ﾌﾟﾛﾌｨｰﾙ</span>
 </div>
-<?php foreach($member as $value){
+<?php
+  $evaluate = 0;
+  if(intval($member['profile']['eval_good']) > 0)
+    $evaluate += intval($member['profile']['eval_good']);
+  
+  if(intval($member['profile']['eval_normal']) > 0)
+    $evaluate += intval($member['profile']['eval_normal']);
+
+  if(intval($member['profile']['eval_bad']) > 0)
+    $evaluate += intval($member['profile']['eval_bad']);
+
+  if($evaluate > 0){
+  	  echo "評価:{$evaluate}";
+  	  echo "&nbsp;";
+  	  echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url') .urlencode('?id='.$sf_params->get('id').'&m_id=' .$member['profile']['m_id']). '">詳細</a>';
+  	  echo '<br />';
+  } else{
+  	  echo "評価:なし";
+  	
+  }
+  echo '<hr />';
+  	
+foreach($member as $value){
   
   if($value['m_id']){
   	
-  	if((int)$value['eval_good'] > 1){
-  	  echo "評価:{$value['eval_good']}";
-  	  echo "&nbsp;";
-  	  echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url') .urlencode('?id='.$sf_params->get('id').'&m_id=' .$value['m_id']). '">詳細</a>';
-  	  echo '<br />';
-  	echo '<hr />';
-  	}
   	#写真
   	if(!empty($value['pic1_url'])){
   	  echo '<img src="' .$value['pic1_url']. '" width="160" height="120"/><br />';
