@@ -19,7 +19,7 @@ foreach($event_detail as $value){
   	"?size=240x240&sensor=false".
   	"&markers=color:blue|label:S|{$value['from_lat']},{$value['from_lon']}&markers=color:red|label:G|{$value['to_lat']},{$value['to_lon']}".
   	"&path=color:blue|weight:5|{$value['from_lat']},{$value['from_lon']}|{$value['to_lat']},{$value['to_lon']}";
-    echo '<img src="'.$imgurl.'" alt="地図"/><br />';
+    
     $year = substr($value['depart_time'],0,4);
     $month = substr($value['depart_time'],4,2);
     $day = substr($value['depart_time'],6,2);
@@ -36,6 +36,7 @@ foreach($event_detail as $value){
     echo "<br />";
     echo $value['detail'];
     echo "<br />";
+    echo '<img src="'.$imgurl.'" alt="地図"/><br />';
     echo "<br />";
   }
   if($value['comment_date']){
