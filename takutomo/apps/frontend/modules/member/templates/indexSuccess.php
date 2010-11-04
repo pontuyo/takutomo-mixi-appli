@@ -21,7 +21,8 @@ $attend_event = false;
 $now = strtotime("now");
 
 if($get_attend_event_list['attend_event_1']['event_id'] && 
-   $now <= strtotime($get_attend_event_list['attend_event_1']['depart_date'])) {
+   $now <= strtotime($get_attend_event_list['attend_event_1']['depart_date'] ." ".
+               $get_attend_event_list['attend_event_1']['depart_time'])) {
   $attend_event = true;
 }
 
@@ -37,7 +38,9 @@ $max = count($get_attend_event_list);
 
 foreach($get_attend_event_list as $key=>$value){
  
-  if($value['event_id']){
+  if($value['event_id']  && 
+   $now <= strtotime($value['depart_date'] ." ". $value['depart_time'])) 
+  {
   	echo '<div>';
   	echo "\n";
   	echo '<sapn style="font-size:small;">';
