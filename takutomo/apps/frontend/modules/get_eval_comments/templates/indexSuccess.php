@@ -1,4 +1,4 @@
-<div style="text-align: left; background-color:#00ccff; color:#000000; margin:5px 0; padding-top:2px;">
+<div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span style="font-size:small;">評価</span>
 </div>
 <?php
