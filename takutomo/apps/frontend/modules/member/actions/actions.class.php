@@ -20,9 +20,22 @@ class memberActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $this->userAgent = $this->getContext()->getRequest()->getAttribute('userAgent');
-
-    
-    $b = new sfWebBrowser();
+    $this->get_attend_event_list = $this->getAttendEventList();
+  }
+  
+  public function executeAinoriHistory(sfWebRequest $request)
+  {
+  	$this->get_attend_event_list = $this->getAttendEventList();
+  	
+  }
+  
+  /**
+   * 相乗りリストを返す　
+   * errorの場合 null
+   */
+  private function getAttendEventList()
+  {
+  	    $b = new sfWebBrowser();
     $b->get(sfConfig::get('sf_takutomo_get_attend_event_url'),
       	    array(
       	      'guid' => 'mixi,'.MixiAppMobileApi::$ownerId
@@ -35,9 +48,12 @@ class memberActions extends sfActions
          	
     $Unserializer = new XML_Unserializer($options);
     $status = $Unserializer->unserialize($b->getResponseText());
-    //if ($status === true) {
-    $this->get_attend_event_list = $Unserializer->getUnserializedData();
-    
-    
+    if ($status === true) {
+      return $Unserializer->getUnserializedData();
+    } else {
+      return null;
+    }
+  	
   }
+  
 }
