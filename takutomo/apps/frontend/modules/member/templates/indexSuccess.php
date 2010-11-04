@@ -11,15 +11,20 @@
 <img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/ainori.gif" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_search_event_url')?>">相乗り</a>
 <br />
+<img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/ainori.gif" />
+<a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_member_url')?>/ainoriHistory/">相乗り履歴</a>
+<br />
 
 <?php
 #相乗り募集が在るかチェック
 $attend_event = false;
-foreach($get_attend_event_list as $key=>$value){ 
-  if($value['event_id']){
-  	$attend_event = true;
-  }
+$now = strtotime("now");
+
+if($get_attend_event_list['attend_event_1']['event_id'] && 
+   $now <= strtotime($get_attend_event_list['attend_event_1']['depart_date'])) {
+  $attend_event = true;
 }
+
 if($attend_event){?>
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span sytle="font-size:small;">参加中の相乗り募集</span>
@@ -28,6 +33,8 @@ if($attend_event){?>
 $week = sfConfig::get('sf_date_week');
 $count = 1;
 $max = count($get_attend_event_list); 
+
+
 foreach($get_attend_event_list as $key=>$value){
  
   if($value['event_id']){
