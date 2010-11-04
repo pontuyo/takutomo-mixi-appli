@@ -198,7 +198,6 @@ class search_eventActions extends sfActions
       	  );
       	                    
       $xml = new SimpleXMLElement($b->getResponseText()); 
-      print_r($xml);
          //print((string)$xml->status->code);
          if((int)$xml->status->code >= 1000 ){
            $this->form->getErrorSchema()->addError( 
