@@ -2,18 +2,26 @@
 <span style="font-size:small;">ﾌﾟﾛﾌｨｰﾙ</span>
 </div>
 <?php
+  #評価表示
   $evaluate = 0;
   if(intval($member['profile']['eval_good']) > 0)
     $evaluate += intval($member['profile']['eval_good']);
-  
-  if(intval($member['profile']['eval_normal']) > 0)
-    $evaluate += intval($member['profile']['eval_normal']);
+  //普通は反映しない
+  #if(intval($member['profile']['eval_normal']) > 0)
+  #  $evaluate += intval($member['profile']['eval_normal']);
 
   if(intval($member['profile']['eval_bad']) > 0)
-    $evaluate += intval($member['profile']['eval_bad']);
-
+    $evaluate -= intval($member['profile']['eval_bad']);
+    
   if($evaluate > 0){
-  	  echo "評価:{$evaluate}";
+  	  #評価星作成
+  	  $evaluate_max_number = sfConfig::get('sf_evaluate_max_number');
+  	  if($evaluate > $evaluate_max_number)$evaluate = $evaluate_max_number;
+  	  $evaluateChar ;
+  	  for($i =0;$i<$evaluate;$i++){
+  	  	$evaluateChar .="☆";
+  	  }
+  	  echo "評価:{$evaluateChar}";
   	  echo "&nbsp;";
   	  echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url') .urlencode('?id='.$sf_params->get('id').'&m_id=' .$member['profile']['m_id']). '">詳細</a>';
   	  echo '<br />';
