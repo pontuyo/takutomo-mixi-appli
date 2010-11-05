@@ -4,12 +4,16 @@
 <?php
 $week = sfConfig::get('sf_date_week');
 
-foreach($member as $value){
-  if($value['m_id']){
-    $name = $value['name'];
-  }
+if($member['profile']['m_id']){
+    $name = $member['profile']['name'];
 }
-
+#評価表示
+$evaluate = 0;
+if(intval($member['profile']['eval_good']) > 0)
+  $evaluate += intval($member['profile']['eval_good']);
+if(intval($member['profile']['eval_bad']) > 0)
+  $evaluate -= intval($member['profile']['eval_bad']);
+  
 foreach($event_detail as $value){
   
   if($value['leader_m_id']){
@@ -34,6 +38,20 @@ foreach($event_detail as $value){
     $url = urlencode(sfConfig::get('sf_mixi_get_profile_url') . '?id='.$value['leader_m_id']);
     echo '募集者:<a href="?guid=ON&amp;url=' . $url . '">' . $name . '</a>';
     echo "<br />";
+    if($evaluate > 0){
+  	  #評価星作成
+  	  $evaluate_max_number = sfConfig::get('sf_evaluate_max_number');
+  	  if($evaluate > $evaluate_max_number)$evaluate = $evaluate_max_number;
+  	  $evaluateChar ;
+  	  for($i =0;$i<$evaluate;$i++){
+  	  	$evaluateChar .="☆";
+  	  }
+  	  echo "評価:{$evaluateChar}";
+  	  echo "&nbsp;";
+    } else{
+  	  echo "評価:なし";
+    }
+    echo '<br />';
     echo $value['detail'];
     echo "<br />";
     echo '<img src="'.$imgurl.'" alt="地図"/><br />';
