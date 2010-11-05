@@ -66,4 +66,5 @@ all:
    - "木"
    - "金"
    - "土"
-     
+
+ evaluate_max_number: 5
