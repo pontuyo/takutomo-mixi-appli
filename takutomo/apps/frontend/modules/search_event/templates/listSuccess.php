@@ -56,7 +56,7 @@ foreach($list as $value){
     echo '<br />';
     echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['leader_m_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
     echo '<br />' ;
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_event_detail_url').urlencode("?event_id={$value['event_id']}&id={$value['leader_m_id']}").'">相乗り情報詳細</a>';
+    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_event_detail_url').urlencode("?event_id={$value['event_id']}&leader_m_id={$value['leader_m_id']}").'">相乗り情報詳細</a>';
     echo '<br />' ;
     echo '<hr />';
     $loop++;
