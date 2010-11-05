@@ -12,8 +12,16 @@ foreach($member as $value){
 foreach($comments as $value){
   
   if($value['eval_point']){
-  	echo "評価:{$value['eval_point']}<br />";
-    echo "(良い:{$value['eval_good']}　悪い:{$value['eval_bad']})";
+  	  #評価星作成
+  	  $evaluate_max_number = sfConfig::get('sf_evaluate_max_number');
+  	  $evaluate = $value['eval_point'];
+  	  if($evaluate > $evaluate_max_number)$evaluate = $evaluate_max_number;
+  	  $evaluateChar ;
+  	  for($i =0;$i<$evaluate;$i++){
+  	  	$evaluateChar .="☆";
+  	  }
+  	echo "評価:{$evaluateChar}<br />";
+    #echo "(良い:{$value['eval_good']}　悪い:{$value['eval_bad']})";
     echo "<hr />";
   }
   
