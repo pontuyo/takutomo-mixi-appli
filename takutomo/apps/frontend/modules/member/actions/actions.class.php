@@ -20,6 +20,7 @@ class memberActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $this->userAgent = $this->getContext()->getRequest()->getAttribute('userAgent');
+    $this->get_reserved_driver_list = $this->getReservedDriverList();
     $this->get_attend_event_list = $this->getAttendEventList();
   }
   
@@ -27,6 +28,29 @@ class memberActions extends sfActions
   {
   	$this->get_attend_event_list = $this->getAttendEventList();
   	
+  }
+  
+  /**
+   * 予約中と予約したタクシー取得
+   * 正常 array
+   * error null
+   */
+  private function getReservedDriverList()
+  {
+  	$b = new sfWebBrowser();
+    $b->post(sfConfig::get('sf_takutomo_get_reserved_driver_url'),
+      array('guid' => 'mixi,'.MixiAppMobileApi::$ownerId));
+    $options = array(
+        'complexType'       => 'array',
+        'parseAttributes' => TRUE
+    );
+    $Unserializer = new XML_Unserializer($options);
+    $status = $Unserializer->unserialize($b->getResponseText());
+    if ($status === true) {
+      return  $Unserializer->getUnserializedData();
+    }else{
+      return null;
+    }
   }
   
   /**
