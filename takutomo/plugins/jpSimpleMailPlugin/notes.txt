@@ -1,0 +1,11 @@
+Version 0.2.0
+--------------------------------------------------
+
+add: a new mailer class for SwiftMailer ver4.
+     This class requires kzl_Jp_Swift_Mime_Headers_UnstructuredHeader class.
+     ref: http://www.kuzilla.co.jp/article.php/20100301symfony
+
+Version 0.1.0
+--------------------------------------------------
+
+First Release.

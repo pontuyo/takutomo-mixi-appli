@@ -1,0 +1,163 @@
+====== jpSimpleMailPlugin ======
+
+このプラグインは日本語(iso-2022-jp)による簡単なメール送信をライブラリに依存せず共通のインターフェースで送信するためのプラグインです。
+
+===== 概要 =====
+
+PHPMailer, Swift Mailer, Qdmailが読み込まれてさえすれば以下の共通のインターフェースで日本語(iso-2022-jp)によるメール送信を行います。
+引数で与えた日本語文字列はプラグインによって内部エンコーディングからJISに変換されます。
+
+<code php>
+$mailer = jpSimpleMail::create('SwiftMailer'); // このサンプルではSwift Mailerを利用しています。
+$mailer->setSubject('メール送信テストです');
+$mailer->setSender('from@example.com');
+$mailer->addTo(sprintf('%s <%s>', '宛先　太郎', 'to@example.com'));
+$mailer->setFrom(sprintf('%s <%s>', '管理者', 'from@example.com'));
+$mailer->setBody('本文です');
+$rs = $mailer->send();
+</code>
+
+また、smtpでの会話には対応していません。
+既に公開してあるjpMailPluginとは全くの別モノになります。
+
+
+===== 対応しているメール送信ライブラリ =====
+以下のライブラリにてテストを行っています。
+
+^ライブラリ名^バージョン^
+|[[http://phpmailer.codeworxtech.com/|PHPMailer]]|v2.3|
+|[[http://swiftmailer.org/|Swift Mailer]]|3.3.3, 4.0.6|
+|[[http://hal456.net/qdmail/|Qdmailに用意されているsfQdmail]]|1.2.6b|
+
+※Qdmailを利用される場合は環境によって、Strictエラー、Noticeのエラーが発生する場合があります。
+※symfony1.3以降ではSwiftMailer4が標準でバンドルされています。
+===== 基本的な利用 =====
+まず、PHPMailer, Swift Mailer, Qdmailのどれかをダウンロードし、autoloadに登録するかincludeしておきます。
+symfony1.3以降ではSwiftMailer4がバンドルされているのでSwift Mailerをダウンロードする必要はありません。
+ただし、iso-2022-jpでエンコードするためにkzl_Jp_Swift_Mime_Headers_UnstructuredHeaderクラスが必要になります。
+最新版では[[http://www.kuzilla.co.jp/|kuzilla]]さんのご好意により本プラグインに最低限必要なクラスを同梱していますので別途ライブラリを用意する必要はありません。
+また、kuzillaさんのサイトで日本語対応のメール用デバッグパネルも用意されたプラグインもあるので活用してみてください。
+[[http://www.kuzilla.co.jp/article.php/20100301symfony]]
+
+あとは、jpMail::createメソッドの引数にメーラーを指定し、以下のように呼び出します。
+
+（例）PHPMailerで送信するサンプル
+<code php>
+    $mailer = jpSimpleMail::create('PHPMailer');
+    $mailer->setSubject('メール送信テストです');
+    $mailer->setSender('from@example.com');
+    $mailer->addTo(sprintf('%s <%s>', '宛先　太郎', 'to@example.com'));
+    $mailer->setFrom(sprintf('%s <%s>', '管理者', 'from@example.com'));
+    $mailer->setBody('本文です');
+    $rs = $mailer->send();
+</code>
+
+createメソッドで渡す事ができる名前は以下の３つです。
+`PHPMailer`, `SwiftMailer`, `Qdmail`, `SwiftMailer4`
+symfony1.3以降ではSwiftMailer4を利用することになるはずです。
+
+===== メール本文を動的に作成する =====
+
+symfony1.0まではsfMailというクラスが用意されており、このクラスを利用することでアクションの結果をメールの本文(body)に適用することができました。しかしsymfony1.1以降はこのクラスは廃止されてしまいましたが、もっと簡単に動的に本文を作成するための方法が用意されました。
+
+それはコンポーネント（またはパーシャル）の処理結果を変数で受け取る事ができるようになったのです。
+
+例えば、以下のようなgetComponentメソッドを使います。
+
+  * apps/frontend/modules/sendmail/actions/actions.class.php
+<code php>
+  public function executeIndex(sfWebRequest $request)
+  {
+    $mailer = jpSimpleMail::create('SwiftMailer');
+    $mailer->setSubject('メール送信テストです');
+    $mailer->setSender('master@example.com');
+    $mailer->addTo(sprintf('%s <%s>', 'シンフォニー　太郎', 'symfony@example.com'));
+    $mailer->setFrom(sprintf('%s <%s>', '管理者', 'master@example.com'));
+    // getComponentでsendmailモジュールのcreateMailBodyコンポーネントに値(name)を渡しつつ処理結果をsetBodyする
+    $mailer->setBody($this->getComponent('sendmail', 'createMailBody', array('name' => 'なまえ')));
+    $rs = $mailer->send();
+</code>
+
+  * apps/frontend/modules/sendmail/actions/components.class.php
+<code php>
+<?php
+class sendmailComponents extends sfComponents
+{
+  public function executeCreateMailBody($request)
+  {
+    // ここで本文を作成するのに必要なロジックをコーディングする
+    $this->url = "http://www.example.com/";
+  }
+}
+</code>
+
+テンプレートではアサインした$nameと$urlを利用可能
+  * apps/frontend/modules/sendmail/templates/_createMailBody.php
+<code php>
+<?php echo $name ?>
+
+------------------
+テストです。
+どうでしょうか？
+
+<?php echo $url ?>
+
+-----
+</code>
+
+===== 高度な利用 =====
+上記サンプルのような利用方法ではなく、HTMLメールや添付メールなど各ライブラリを直接操作したい場合は直接各ライブラリを呼び出して利用します。
+その場合は以下のように直接ライブラリのインスタンスを取得することができます。
+
+<code php>
+// getterでインスタンスを取得
+$Mailer = $mailer->getMailer();
+// または直接mailerプロパティを参照
+$Mailer = $mailer->mailer;
+</code>
+
+===== その他のメール送信ライブラリにも対応させたい =====
+
+Zend_Mailなどのその他のメール送信ライブラリにも対応させることも簡単です。
+jpSimpleMailPlugin/lib/mailer/jpXXX.class.phpという名前でjpMailerクラスを基に実装すれば良いだけです。
+
+===== 送信に失敗したとき =====
+各々のメールライブラリで送信した結果がエラーだった場合は、jpSendMailExceptionを投げるようになっています。
+なので以下のようなtry,catchが利用できます。
+<code php>
+try {
+  $mailer = jpSimpleMail::create('Qdmail');
+  ....
+  $mailer->send();
+} catch (jpSendMailException $e) {
+  // エラーの場合の処理
+}
+</code>
+
+また、jpSendMailExceptionはsfExceptionを継承しているだけです。
+
+===== テスト =====
+単体テスト（メソッドレベルのテスト）と機能テスト（実際にメールを送信してみるテスト）も附属のtestディレクトリのファイルを参考にすると簡単に作成できると思います。
+また、テストを実行する場合は $_SERVER['SYMFONY']に使用しているsymfonyのライブラリのパスを設定しなければなりません。そして、テスト送信先のアドレスを$_SERVER['SF_TEST_TO_ADDRESS']に設定しなければなりません。
+bashの場合は以下のように環境変数をセットしておきます。
+
+テストを実行する前にexportで変数をSYMFONYをセットしておく
+<code>
+$ export SYMFONY=/path-to-symfony/lib
+$ export SF_TEST_TO_ADDRESS=to@example.com
+</code>
+
+全てのテストを実行するためにはprove.phpを叩きます。
+<code>
+$ php /path-to-plugin/test/bin/prove.php
+</code>
+
+単体テストではエンコーディングが正しく行われているかではなく、メソッドがエラーなく実装されているかどうかをテストしています。テストとしては不十分かもしれません。。
+
+===== 他のライブラリの依存度 =====
+
+このライブラリはテストするためにsymfonyを活用していますが、ライブラリ自体は最後のメール送信時(sendメソッド)で失敗したときに投げる例外sfExceptionのみsymfonyに依存しています。
+
+なので、フレームワークとは関係なくても各ファイルを読み込みさえできれば移植も簡単（なはず）。
+
+(追記) symfony 1.3以降で標準となったSwiftMailer4対応したため、sfContextインスタンスに依存する部分があります。
