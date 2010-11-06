@@ -2,28 +2,27 @@
 <span style="font-size:small;">評価</span>
 </div>
 <?php
-foreach($member as $value){
-  if($value['m_id']){
-  	echo "{$value['name']}さん<br />";
+if($member['profile']['m_id']){
+  	echo "{$member['profile']['name']}さん<br />";
   	echo "<hr />";
-  }
 }
+if($comments['summary']['eval_point']){
+  #評価星作成
+  $evaluate_max_number = sfConfig::get('sf_evaluate_max_number');
+  $evaluate = $comments['summary']['eval_point'];
+  if($evaluate > $evaluate_max_number)$evaluate = $evaluate_max_number;
+  $evaluateChar ;
+  for($i =0;$i<$evaluate;$i++){
+    $evaluateChar .="☆";
+  }
+  echo "評価:{$evaluateChar}<br />";
+   #echo "(良い:{$value['eval_good']}　悪い:{$value['eval_bad']})";
+}else{
+  echo "評価はまだ在りません<br />";
+}
+echo "<hr />";
 
 foreach($comments as $value){
-  
-  if($value['eval_point']){
-  	  #評価星作成
-  	  $evaluate_max_number = sfConfig::get('sf_evaluate_max_number');
-  	  $evaluate = $value['eval_point'];
-  	  if($evaluate > $evaluate_max_number)$evaluate = $evaluate_max_number;
-  	  $evaluateChar ;
-  	  for($i =0;$i<$evaluate;$i++){
-  	  	$evaluateChar .="☆";
-  	  }
-  	echo "評価:{$evaluateChar}<br />";
-    #echo "(良い:{$value['eval_good']}　悪い:{$value['eval_bad']})";
-    echo "<hr />";
-  }
   
   if($value['eval_date']){
   	$year = substr($value['eval_date'],0,4);
