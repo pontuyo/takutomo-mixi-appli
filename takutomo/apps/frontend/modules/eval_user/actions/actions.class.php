@@ -48,8 +48,9 @@ class eval_userActions extends sfActions
   	
   	$b = new sfWebBrowser();
     $b->post(sfConfig::get('sf_takutomo_eval_user_url'),
-      array('email' => 'pontuyo.net@docomo.ne.jp',
-            'password' => 'pontuyo',
+      array('guid' => 'mixi,'.MixiAppMobileApi::$ownerId,
+            //'email' => 'pontuyo.net@docomo.ne.jp',
+            //'password' => 'pontuyo',
             'id' => $this->getRequestParameter('id'),
             'eval' => $this->getRequestParameter('eval'),
             'eval_comment' => $this->getRequestParameter('eval_comment'),
