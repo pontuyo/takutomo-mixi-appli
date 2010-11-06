@@ -42,7 +42,8 @@ all:
   eval_driver_url: http://mixi.takutomo.com/takutomo/web/eval_driver
   eval_user_url: http://mixi.takutomo.com/takutomo/web/eval_user
   get_reserved_driver_url: http://mixi.takutomo.com/takutomo/web/get_reserved_driver
- 
+  inquiry_url: http://mixi.takutomo.com/takutomo/web/inquiry
+  
  opensocial:
   person_api: http://api.mixi-platform.com/os/0.8/people/@me/@self
   person_guid_api: http://api.mixi-platform.com/os/0.8/people/
@@ -68,3 +69,6 @@ all:
    - "土"
 
  evaluate_max_number: 5
+ 
+ iquiry_mail: "mixi_contact@takutomo.com"
+ 
