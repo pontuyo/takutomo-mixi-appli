@@ -2,6 +2,8 @@
 <span style="font-size:small;">ﾀｸｼｰﾘｽﾄ</span>
 </div>
 <?php
+use_helper('getEval');
+
 $total = 0;
 $view_limit = 5;
 $page = (int)$sf_params->get('p');
@@ -49,6 +51,8 @@ echo "<hr />";
 $loop = 0; 
 $driver_count = 0;
 
+ 
+
 //タクシー表示
 foreach($list as $value){
 
@@ -75,6 +79,7 @@ foreach($list as $value){
     echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['driver_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
     echo "&nbsp;";
     echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'">評価</a>';
+    echo getEval($value['driver_id']);
     echo '<br clear="all" />';
     echo '<hr />';
     $loop++;
