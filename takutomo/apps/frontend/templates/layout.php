@@ -29,13 +29,13 @@
     <?php echo $sf_content ?>
     <!--</div>-->
     <hr>
-    <div style="font-size:small;">
+    <!--<div style="font-size:small;">-->
     <?php 
     echo sfJpMobile::getEmoji()->convert('&#xE6EA;');//9の文字
     echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_member_url').'" accesskey="9">ﾀｸﾄﾓﾒﾆｭｰ</a>'?>
-    </div>
+    <!--</div>-->
     <div style="text-align:center; background-color:#00ccff; color:#000000; margin:5px 0; padding-top:2px;">
-      <span sytle="font-size:small;">(c)Skymint Co.,Ltd.</span>
+      <!--<span sytle="font-size:small;">-->(c)Skymint Co.,Ltd.<!--</span>-->
     </div>
   </body>
 </html>
