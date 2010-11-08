@@ -63,7 +63,7 @@ class inquiryActions extends sfActions
     
     mb_language('ja');
     mb_internal_encoding('UTF-8');
-    $to = "kobari1984@gmail.com";//宛先 
+    $to = sfConfig::get('sf_iquiry_mail');//宛先 
     $subject = "お問い合わせ"; //題名
     $body = $this->getRequestParameter('message'); //本文
     $from = sfConfig::get('sf_iquiry_mail'); //差出人
