@@ -4,14 +4,11 @@
 <?php
 use_helper('getEval');
 
-$total = 0;
+$total = $list['summary']['num_of_result'];
+//一画面最大表示件数
 $view_limit = 5;
 $page = (int)$sf_params->get('p');
 if(empty($page))$page = 1;
-//全件カウント
-foreach($list as $value){
-  if($value['driver_id'])$total++;
-}
 //ゼロディバイド
 if($total ==0)$total = 1;
 
@@ -51,11 +48,14 @@ echo "<hr />";
 $loop = 0; 
 $driver_count = 0;
 
- 
-
-//タクシー表示
+echo "ループ前";
+echo date("Y年m月d日 H時i分s秒",  time());
+echo "<br />";
+ //タクシー表示
+if(!empty($list))
+{
 foreach($list as $value){
-
+  //ドライバーカウントが表示件数の値以上かつ最大表示件数以下の時に処理
   if($value['driver_id'] && ($view_number - 1) <= $driver_count && $loop <= ($view_limit - 1)){
   	if($value['recomended'] == 1){
       echo sfJpMobile::getEmoji()->convert('&#xE727;');//指でOK;
@@ -67,6 +67,7 @@ foreach($list as $value){
     echo '<label name="fare">概算運賃</label>&nbsp;';
     echo number_format($value['fare']);
     echo '円<br />';
+    echo $value['fare'];
     echo $value['name'];
     echo '<br />';
     echo '<span style="font-size:xx-small;">'.mb_convert_kana($value['car'], "k")."</span>";
@@ -84,8 +85,18 @@ foreach($list as $value){
     echo '<hr />';
     $loop++;
   }
+  //何ページのドライバーを探すため
   if($value['driver_id'])$driver_count++;
+  
+  if($loop >= ($view_limit - 1))break;
+  
+  echo "test ";
 }
+}
+echo "ループ後";
+echo date("Y年m月d日 H時i分s秒", time());
+echo "<br />";
+
 
 //前ページ
 if($prev){
