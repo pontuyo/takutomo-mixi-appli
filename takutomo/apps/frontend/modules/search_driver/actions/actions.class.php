@@ -188,7 +188,7 @@ class search_driverActions extends sfActions
       	);
       	
       	$this->viewList($request,$b,"fromConfirm");
-  	   
+  	    return sfView::SUCCESS;
   	   } 
   	 }else{
   	 	if($request->getParameter('lat') != "" && 
@@ -204,9 +204,10 @@ class search_driverActions extends sfActions
       	    )
       	  );
       	  $this->viewList($request,$b,"fromConfirm");
+      	 return sfView::SUCCESS;
   	 	}
-
   	 }
+  	 
   }
   
   public function executeFromConfirm(sfWebRequest $request)
@@ -245,7 +246,8 @@ class search_driverActions extends sfActions
       	      'q' => $request->getParameter('to_address')
       	    )
       	);        
-         $this->viewList($request,$b,"toConfirm");  	   
+         $this->viewList($request,$b,"toConfirm");
+         return sfView::SUCCESS;
   	   }    
   	 }else{
   	 	if($request->getParameter('lat') != "" && 
@@ -261,8 +263,8 @@ class search_driverActions extends sfActions
       	    )
       	  );
       	  $this->viewList($request,$b,"toConfirm");
+      	  return sfView::SUCCESS;
   	 	}
-
   	 }
   }
   
