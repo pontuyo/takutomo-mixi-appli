@@ -30,6 +30,7 @@
 <?php echo $form['depart_date']->render() ?><br />
 
 <?php echo $form['depart_time']->renderLabel() ?>
+<br />
 <?php echo $form['depart_time']->renderError() ?>
 <?php echo $form['depart_time']->render() ?><br />
 <br />
