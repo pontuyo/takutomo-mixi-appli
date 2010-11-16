@@ -68,14 +68,14 @@ foreach($list as $value){
     echo '<br />';
     echo '<span style="font-size:xx-small;">'.mb_convert_kana($value['car'], "k")."</span>";
     echo '<br />';
-    echo '<label name="distance">乗客からの距離</label>&nbsp;';
+    echo '<span style="font-size:xx-small;">乗客からの距離&nbsp;';
     echo $value['distance'];
-    echo 'km<br />';
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_reserve_driver_url').'?driver_id='.$value['driver_id'].'">予約する</a>';
+    echo 'km</span><br />';
+    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_reserve_driver_url').'?driver_id='.$value['driver_id'].'"><span style="font-size:small;">予約する</span></a>';
     echo "&nbsp;";
     echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['driver_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
     echo "&nbsp;";
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'">評価</a>';
+    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'"><span style="font-size:small;">評価</span></a>';
     echo getEval($value['driver_id']);
     echo '<br clear="all" />';
     echo '<hr />';
