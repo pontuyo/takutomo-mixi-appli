@@ -119,11 +119,7 @@ class search_driverActions extends sfActions
       	  $this->display_category = SearchDriverForm::$categories[$this->getRequestParameter('category')];
       	  $depart_date = $this->getRequestParameter('depart_date');
       	  $depart_time = $this->getRequestParameter('depart_time');
-      	  
-      	  echo "takutomo api access before";
-          echo date("Y/m/d H:i:s", time());
-          echo "<br />";
-          
+      	            
       	  $b->post(sfConfig::get('sf_takutomo_search_driver_url'),
       	    array(
       	      'from_address' => $this->getRequestParameter('from_address'),
@@ -141,10 +137,6 @@ class search_driverActions extends sfActions
       	    )
       	  );
 
-      	  echo "takutomo api access after";
-          echo date("Y/m/d H:i:s", time());
-          echo "<br />";
-
         $xml = new SimpleXMLElement($b->getResponseText()); 
       	 
       	 //print $b->getResponseText();
@@ -160,20 +152,12 @@ class search_driverActions extends sfActions
                     'complexType'       => 'array'
                 );
           // print $b->getResponseText();
-           $Unserializer = new XML_Unserializer($options);
-          echo "XML to Array convert before";
-          echo date("Y/m/d H:i:s", time());
-          echo "<br />";
-           
+           $Unserializer = new XML_Unserializer($options);           
            $status = $Unserializer->unserialize($b->getResponseText());
            if ($status === true) {
             
              $this->list = $Unserializer->getUnserializedData();
-             //print_r($this->list);
-          echo "XML to Array convert after";
-          echo date("Y/m/d H:i:s", time());
-          echo "<br />";
-             
+             //print_r($this->list);             
            }
             
            

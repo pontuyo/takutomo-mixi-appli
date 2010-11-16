@@ -48,9 +48,6 @@ echo "<hr />";
 $loop = 0; 
 $driver_count = 0;
 
-echo "ループ前";
-echo date("Y年m月d日 H時i分s秒",  time());
-echo "<br />";
  //タクシー表示
 if(!empty($list))
 {
@@ -67,7 +64,6 @@ foreach($list as $value){
     echo '<label name="fare">概算運賃</label>&nbsp;';
     echo number_format($value['fare']);
     echo '円<br />';
-    echo $value['fare'];
     echo $value['name'];
     echo '<br />';
     echo '<span style="font-size:xx-small;">'.mb_convert_kana($value['car'], "k")."</span>";
@@ -90,13 +86,8 @@ foreach($list as $value){
   
   if($loop >= ($view_limit - 1))break;
   
-  echo "test ";
 }
 }
-echo "ループ後";
-echo date("Y年m月d日 H時i分s秒", time());
-echo "<br />";
-
 
 //前ページ
 if($prev){
