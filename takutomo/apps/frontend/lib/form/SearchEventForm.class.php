@@ -11,10 +11,10 @@
  	
  	public function configure()
     {   
-      $now = strtotime('now');
-      self::$years = range(date('Y',$now),2015);
+      $year = (int)date('Y');
+      self::$years = range($year,$year + 1);
       $sfWidegetFormDate = new sfWidgetFormDate(
-        array('format'=>'%year%年%month%月%day%日',
+        array('format'=>'%year%年<br>%month%月<br>%day%日',
               'years' => array_combine(self::$years, self::$years),
               'can_be_empty' => false,
               //'empty_values' => array('year' => date('Y'), 'month' => sprintf('%02d',date('n')), 'day' => date('j'))

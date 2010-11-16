@@ -10,12 +10,12 @@
  	protected static $display_categories = array(""=>"選択してください",'全て','高級車','運賃格安','安心大手','大型車');
  	public static $categories = array('全て','高級車','運賃格安','安心大手','大型車');
  	public static $years = array();
- 	
  	public function configure()
-    {   
-      self::$years = range(2010,2015);
+    { 
+      $year = (int)date('Y');
+      self::$years = range($year,$year + 1);
       $sfWidegetFormDate = new sfWidgetFormDate(
-        array('format'=>'%year%年%month%月%day%日',
+        array('format'=>'%year%年<br>%month%月<br>%day%日',
               'years' => array_combine(self::$years, self::$years),
               'can_be_empty' => false,
               //'empty_values' => array('year' => date('Y'), 'month' => sprintf('%02d',date('n')), 'day' => date('j'))
