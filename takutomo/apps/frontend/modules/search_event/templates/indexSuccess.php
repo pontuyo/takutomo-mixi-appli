@@ -1,12 +1,15 @@
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
-<span sytle="font-size:small;">相乗り検索</span>
+<span style="font-size:small;">相乗り検索</span>
 </div>
 <?php if(!is_null($addEvnetForm)){
 	 echo $addEvnetForm->renderGlobalErrors();
 	 echo $addEvnetForm['detail']->renderError() ;
 } ?>
-<?php echo $form->renderGlobalErrors() ?>
+<div style="font-size:medium">
+
 <form action="?guid=ON" method="POST">
+<?php echo $form->renderGlobalErrors() ?>
+
 <?php echo $form['from_address']->renderLabel() ?>
 <?php echo $form['from_address']->renderError() ?>
 <br />
@@ -43,3 +46,4 @@
 <input name="url" type="hidden" value="<?php echo sfConfig::get('sf_mixi_search_event_url').'/list/' ?>" />
 <input type="submit" value="相乗り"/>
 </form>
+</div>

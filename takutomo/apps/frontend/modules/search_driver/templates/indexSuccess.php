@@ -1,6 +1,7 @@
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
-<span sytle="font-size:small;">ﾀｸｼｰ検索</span>
+<span style="font-size:small;">ﾀｸｼｰ検索</span>
 </div>
+<div style="font-size:medium">
 
 <form action="?guid=ON" method="post">
 <?php echo $form->renderGlobalErrors() ?>
@@ -38,3 +39,4 @@
 <input name="url" type="hidden" value="<?php echo sfConfig::get('sf_mixi_search_driver_url') ?>/list/" />
 <input type="submit" value="検索"/>
 </form>
+</div>
