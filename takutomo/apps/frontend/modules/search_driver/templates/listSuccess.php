@@ -10,9 +10,9 @@ $view_limit = 5;
 $page = (int)$sf_params->get('p');
 if(empty($page))$page = 1;
 //ゼロディバイド
-if($total ==0)$total = 1;
+//if($total ==0)$total = 1;
 
-$max_page = (int)$total/$view_limit;
+//$max_page = (int)$total/$view_limit;
 $next_page = $page + 1;
 $prev_page = $page - 1;
 $next = true;
@@ -42,7 +42,10 @@ echo "{$depart_date['month']}/{$depart_date['day']}({$day_name})&nbsp; {$depart_
 echo "<br />";
 echo "{$sf_params->get('from_address')}>{$sf_params->get('to_address')}";
 echo "<hr />";
-echo "{$view_number}〜{$view_max_number}件目 /全{$total}件<br />";
+if($total > 0)
+  echo "{$view_number}〜{$view_max_number}件目 /全{$total}件<br />";
+else
+  echo "全{$total}件<br />";
 echo "<hr />";
 echo "\n";
 
