@@ -57,36 +57,70 @@ if(!empty($list))
 foreach($list as $value){
   //ドライバーカウントが表示件数の値以上かつ最大表示件数以下の時に処理
   if($value['driver_id'] && ($view_number - 1) <= $driver_count && $loop <= ($view_limit - 1)){
+  	
   	if($value['recomended'] == 1){
       echo sfJpMobile::getEmoji()->convert('&#xE727;');//指でOK;
       echo '<span style="color:red">ｵｽｽﾒ</span><br />';
   	}
-  	if(!empty($value['pic1_url'])){
-  	  echo '<img src="'.$value['pic1_url'].'" width="100" height="100" alt="写真"  align="left" style="float:left;margin:3px;" "/>';
-  	}else{
-  	  echo '<img src="'.sfConfig::get('sf_mixi_index_url').'/images/noimage.jpg" width="100" height="100" alt="写真"  align="left" style="float:left;margin:3px;" "/>';
-  	}
-  	echo '<span style="font-size:xx-small;"><font size="1">';
-    echo '概算運賃<br />';
-    echo number_format($value['fare']);
-    echo '円<br />';
-    echo $value['name'];
-    echo '<br />';
-    echo mb_convert_kana($value['car'], "k");
-    echo '<br />';
-    echo '乗客からの距離&nbsp;<br />';
-    echo $value['distance'];
-    echo 'km';
-    echo '<br /><div clear="all" style="clear:both;"></div>';
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_reserve_driver_url').'?driver_id='.$value['driver_id'].'">予約</a>';
-    echo "&nbsp;";
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['driver_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
-    echo "&nbsp;";
-    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'">評価</a>';
-    echo getEval($value['driver_id']);
-    echo '</font></span>';
-    echo '<hr />';
-    echo "\n";
+  	 $image_url = sfConfig::get('sf_mixi_index_url').'/images/noimage.jpg';
+	 if(!empty($value['pic1_url'])){
+	   $image_url = $value['pic1_url'];
+	 }
+  	 if($sf_request->getAttribute('userAgent')->isEZweb())
+  	 {
+  	 	echo '<table style="margin:0px"><tr><td colspan="2" width="100" height="100">';
+  	 	echo '<img src="'.$image_url.'" width="100" height="100" alt="写真"  align="left" style="float:left;" />';
+  	 	echo '</td>';
+  	 	echo '<td>';
+	  	echo '<span style="font-size:xx-small;"><font size="1">';
+	    echo '概算運賃<br />';
+	    echo number_format($value['fare']);
+	    echo '円<br />';
+	    echo mb_convert_kana($value['name'],"k");
+	    echo '<br />';
+	    echo mb_convert_kana($value['car'], "k");
+	    echo '<br />';
+	    echo '乗客からの距離&nbsp;<br />';
+	    echo $value['distance'];
+	    echo 'km';
+        echo '</span>';
+  	 	echo '</td></tr>';
+  	 	echo '</table>';
+  	 	echo '<span style="font-size:xx-small;"><font size="1">';
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_reserve_driver_url').'?driver_id='.$value['driver_id'].'">予約</a>';
+	    echo "&nbsp;";
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['driver_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
+	    echo "&nbsp;";
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'">評価</a>';
+	    echo getEval($value['driver_id']);
+  	 	echo '</span>';
+  	 	echo '<hr />';
+	    echo "\n";
+  	 }else{
+
+	  	echo '<img src="'.$image_url.'" width="100" height="100" alt="写真"  align="left" style="float:left;margin:3px;" />';
+	  	echo '<span style="font-size:xx-small;"><font size="1">';
+	    echo '概算運賃<br />';
+	    echo number_format($value['fare']);
+	    echo '円<br />';
+	    echo mb_convert_kana($value['name'],"k");
+	    echo '<br />';
+	    echo mb_convert_kana($value['car'], "k");
+	    echo '<br />';
+	    echo '乗客からの距離&nbsp;<br />';
+	    echo $value['distance'];
+	    echo 'km';
+	    echo '<div clear="all" style="clear:both;"></div><br />';
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_reserve_driver_url').'?driver_id='.$value['driver_id'].'">予約</a>';
+	    echo "&nbsp;";
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_profile_url').'?id='.$value['driver_id'].'">ﾌﾟﾛﾌｨｰﾙ</a>';
+	    echo "&nbsp;";
+	    echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_get_eval_comments_url').urlencode('?id='.$value['driver_id'].'&m_id='. $value['driver_id']).'">評価</a>';
+	    echo getEval($value['driver_id']);
+	    echo '</font></span>';
+	    echo '<hr />';
+	    echo "\n";
+  	 }
     $loop++;
   }
   //何ページのドライバーを探すため
