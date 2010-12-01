@@ -10,7 +10,11 @@ foreach($profile as $value)
 	if($value['m_id'])
 	{
 	  echo '登録ﾒｰﾙｱﾄﾞﾚｽ:<br />';
-	  echo $value['email'];
+	  if(!empty($value['email'])){
+	    echo $value['email'];	
+	  }else{
+	    echo 'なし';
+	  }
 	  echo "<br />";
 	  echo '<a href="?guid=ON&url='.sfConfig::get('sf_mixi_edit_email_url').'/confirm/ ">変更する</a>';
 	}
