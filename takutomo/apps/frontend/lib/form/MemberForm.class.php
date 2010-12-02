@@ -26,23 +26,27 @@
       $this->widgetSchema->setLabels(array(
        'email'    => 'メールアドレス',
        'password'   => 'パスワード',
-       'name' => '名前',
+       'name' => 'ﾆｯｸﾈｰﾑ',
        'age' => '年齢',
        'gender' => '性別',
        'introduction' => '自己紹介'
         ));  
         
      $this->setValidators(array(
-       'email'=> new sfValidatorAnd(
-          array(
-                   new sfValidatorString(),
-                   new sfValidatorEmail(),
-          ),
-          array(),
-          array('required'=>'メールアドレスを入力してください。',
-                'invalid' => 'メールアドレスが不正です。')
-       ),
-       'password' => new sfValidatorString(array(),
+//mixiアプリガイドライン対応 取得が禁止されている
+//       'email'=> new sfValidatorAnd(
+//          array(
+//                   new sfValidatorString(array('required' => false)),
+//                   new sfValidatorEmail(array('required' => false)),
+//          ),
+//          array(),
+//          array('required'=>'メールアドレスを入力してください。',
+//                'invalid' => 'メールアドレスが不正です。')
+//       ),
+       'email' => new sfValidatorString(array('required' => false),
+                  array('required' => 'メールアドレスを入力してください。')),
+
+       'password' => new sfValidatorString(array('required' => false),
                   array('required' => 'パスワードを入力してください。')),
        'name' => new sfValidatorString(
                 array('required' => true),

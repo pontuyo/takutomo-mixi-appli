@@ -4,10 +4,13 @@
 以下の内容で登録します。<br />
 <br />
 <form action="?guid=ON" method="POST">
+<!--
 メールアドレス<br />
 <?= $sf_params->get('email') ?><br />
-ニックネーム<br />
+-->
+ﾆｯｸﾈｰﾑ<br />
 <?= $sf_params->get('name') ?><br />
+
 年齢<br />
 <?= $sf_params->get('age') ?><br />
 性別<br />

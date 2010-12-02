@@ -54,7 +54,7 @@
       //$this->widgetSchema->setNameFormat('member[%s]');
       
       $this->widgetSchema->setLabels(array(
-       'name' => '名前',
+       'name' => 'ﾆｯｸﾈｰﾑ',
        'age' => '年齢',
        'gender' => '性別',
        'introduction' => '自己紹介',

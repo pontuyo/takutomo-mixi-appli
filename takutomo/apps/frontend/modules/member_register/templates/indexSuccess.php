@@ -4,6 +4,7 @@
 <?php echo $form->renderGlobalErrors() ?>
  
 <form action="?guid=ON" method="POST">
+<!--
 <?php echo $form['email']->renderLabel() ?><br />
 <?php echo $form['email']->renderError() ?>
 <?php echo $form['email']->render(array('istyle' => '3','mode' =>'alphabet')) ?><br />
@@ -11,7 +12,7 @@
 <?php echo $form['password']->renderLabel() ?><br />
 <?php echo $form['password']->renderError() ?>
 <?php echo $form['password']->render(array('istyle' => '3','mode' =>'alphabet')) ?><br />
-
+-->
 <?php echo $form['name']->renderLabel() ?><br />
 <?php echo $form['name']->renderError() ?>
 <?php echo $form['name']->render() ?><br />

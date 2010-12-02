@@ -19,12 +19,18 @@ class member_registerActions extends sfActions
   
   public function executeIndex(sfWebRequest $request)
   {
+  	if($this->memberExist())
+  	{
+  	  $this->setTemplate('exist');
+  	  return sfView::SUCCESS;
+  	}
+  	
   	$this->form = new MemberForm();
   	
   	if ($request->isMethod('get')){
   		$mixi = new MixiAppMobileApi;
   		$person = $mixi->get(sfConfig::get('sf_opensocial_person_api').'?fields=birthday,gender');
-  		print_r($person->entry);
+  		
 
   		$this->form->setDefault('name',$person->entry->nickname);
   		$this->form->setDefault('gender',$this->convertGender($person->entry->gender));
@@ -82,6 +88,26 @@ class member_registerActions extends sfActions
     return sfView::SUCCESS;
     
     
+  }
+  
+  /**
+   * 会員が存在するかチェック　
+   */
+  private function memberExist()
+  {
+  	   $b = new sfWebBrowser();
+      	$b->post(sfConfig::get('sf_takutomo_check_registration_url'),
+      	array('guid' => 'mixi,'.MixiAppMobileApi::$ownerId //'DEBUG,sample_member_001' 
+      	                    ));
+ 
+      	$xml = new SimpleXMLElement($b->getResponseText());       	
+      	 
+      	 if((int)$xml->status->code >= 1000){
+      	   return false;
+         }
+         
+       return true;
+  	
   }
   
   /**

@@ -112,9 +112,10 @@ foreach($get_attend_event_list as $key=>$value){
 <?php echo sfJpMobile::getEmoji()->convert('&#xE719;');//鉛筆の文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_edit_profile_url')?>">ﾌﾟﾛﾌｨｰﾙ設定</a>
 <br />
-<?php echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
-<a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_edit_email_url')?>">ﾒｰﾙｱﾄﾞﾚｽ変更</a>
-<br />
+
+<?php //echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
+<!-- <a href="?guid=ON&amp;url=<?php //echo sfConfig::get('sf_mixi_edit_email_url')?>">ﾒｰﾙｱﾄﾞﾚｽ変更</a>
+<br />-->
 <?php echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_inquiry_url')?>">お問い合わせ</a>
 <hr />
