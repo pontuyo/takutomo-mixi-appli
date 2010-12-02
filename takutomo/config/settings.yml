@@ -20,7 +20,7 @@ all:
   delete_user_url: http://api.takutomo.com/v3/member/delete_user.php?api_key=pontuyo
   eval_user_url: http://api.takutomo.com/v3/member/eval_user.php?api_key=pontuyo
   get_reserved_driver_url: http://api.takutomo.com/v3/member/get_reserved_driver.php?api_key=pontuyo
-  
+  check_registration_url: http://api.takutomo.com/v3/member/check_registration.php?api_key=pontuyo
  mixi:
   index_url: http://mixi.takutomo.com/takutomo/web/
   member_url: http://mixi.takutomo.com/takutomo/web/member
