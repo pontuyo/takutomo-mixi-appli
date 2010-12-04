@@ -72,3 +72,7 @@ all:
  
  iquiry_mail: "mixi_contact@takutomo.com"
  
+
+ .actions:
+    error_404_module: error
+    error_404_action: error404
