@@ -9,5 +9,5 @@ define('SF_ENVIRONMENT', 'prod');
 define('SF_DEBUG',       false);
 
 
-$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'prod', true);
+$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'prod', false);
 sfContext::createInstance($configuration)->dispatch();
