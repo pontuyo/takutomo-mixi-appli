@@ -118,5 +118,6 @@ foreach($get_attend_event_list as $key=>$value){
 <br />-->
 <?php echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_inquiry_url')?>">お問い合わせ</a>
-<hr />
+<!--<hr />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_delete_user_url')?>">ﾀｸﾄﾓ退会</a>
+-->
