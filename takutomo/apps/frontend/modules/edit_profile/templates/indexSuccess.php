@@ -10,6 +10,7 @@
  //print_r($profile);
  ?>
 <form action="?guid=ON" method="POST">
+<!--
 <?php echo $form['name']->renderLabel() ?><br />
 <?php echo $form['name']->renderError() ?>
 <?php echo $form['name']->render() ?><br />
@@ -21,7 +22,7 @@
 <?php echo $form['gender']->renderLabel() ?><br />
 <?php echo $form['gender']->renderError() ?>
 <?php echo $form['gender']->render() ?><br />
-
+-->
 <?php echo $form['introduction']->renderLabel() ?><br />
 <?php echo $form['introduction']->renderError() ?>
 <?php echo $form['introduction']->render() ?><br />

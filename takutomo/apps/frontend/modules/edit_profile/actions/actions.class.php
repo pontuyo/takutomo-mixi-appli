@@ -65,9 +65,10 @@ class edit_profileActions extends sfActions
   private function updateProfile(sfWebRequest $request)
   {
     $gender = ProfileForm::$sexs[$this->getRequestParameter('gender')];
-    $this->takutomoEditProfile('name',$request->getParameter('name'));
-  	$this->takutomoEditProfile('age',$request->getParameter('age'));
-  	$this->takutomoEditProfile('gender',$gender);
+    //mixiアプリガイドラインに反するためname,age,genderはコメント化
+    //$this->takutomoEditProfile('name',$request->getParameter('name'));
+  	//$this->takutomoEditProfile('age',$request->getParameter('age'));
+  	//$this->takutomoEditProfile('gender',$gender);
   	$this->takutomoEditProfile('introduction',$request->getParameter('introduction'));
   	$this->takutomoEditProfile('from1',$request->getParameter('from1'));
   	$this->takutomoEditProfile('from2',$request->getParameter('from2'));
