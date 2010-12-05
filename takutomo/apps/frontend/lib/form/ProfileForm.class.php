@@ -73,19 +73,19 @@
      $this->setValidators(array(
 
        'name' => new sfValidatorString(
-                array('required' => true),
+                array('required' => false),
                 array('required' => '名前を入力してください。','invalid' => '年齢が不正です。')),
        'age' => new sfValidatorAnd(
           array(
                    new sfValidatorString(),
                    new sfValidatorInteger(),
           ),
-          array(),
+          array('required' => false),
           array('required'=>'年齢を入力してください。',
                 'invalid' => '年齢が不正です。')
        ),
  
-       'gender' => new sfValidatorChoice(array('choices' => array_keys(self::$sexs)),
+       'gender' => new sfValidatorChoice(array('required' => false,'choices' => array_keys(self::$sexs)),
              array('required' =>'性別を選択してください。')  
        ),
        'introduction' => new sfValidatorString(array('required' => false)),
