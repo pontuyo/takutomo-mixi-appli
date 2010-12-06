@@ -12,6 +12,7 @@
 <input name="url" type="hidden" value="<?php echo sfConfig::get('sf_mixi_search_driver_url') .'/to/' ?>" />
 <input type="submit" name="departure" value="進む"/><br />
 </form>
-<hr />
+<!--<hr />
 GPSで現在位置を入力<br />
 <a href="location:gps?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_search_driver_url').'/to/'?>">GPSで現在位置を補足</a>
+-->
