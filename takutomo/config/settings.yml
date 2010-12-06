@@ -43,6 +43,9 @@ all:
   eval_user_url: http://mixi.takutomo.com/takutomo/web/eval_user
   get_reserved_driver_url: http://mixi.takutomo.com/takutomo/web/get_reserved_driver
   inquiry_url: http://mixi.takutomo.com/takutomo/web/inquiry
+  taxi_manual_url: http://mixi.takutomo.com/takutomo/web/taxi_manual
+  ainori_manual_url: http://mixi.takutomo.com/takutomo/web/ainori_manual
+  privacy_url: http://mixi.takutomo.com/takutomo/web/privacy
   
  opensocial:
   person_api: http://api.mixi-platform.com/os/0.8/people/@me/@self
