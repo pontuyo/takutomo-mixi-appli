@@ -25,7 +25,7 @@ if($sf_request->getAttribute('userAgent')->isDoCoMo())
     </style>    
   </head>
   <body>
-    <img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/takutomo.jpg" /><br />
+    <img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/takutomo.gif" /><br />
     <!--<div style="font-size:x-small;">-->
     <?php echo $sf_content ?>
     <!--</div>-->
