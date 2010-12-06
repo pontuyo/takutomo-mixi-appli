@@ -79,7 +79,6 @@ class MixiMobileLoginCheckFilter extends sfFilter{
     $moduleArr = array('index','member_register','forgot_password');
       	 
     if((int)$xml->status->code >= 1000){
-      	   
       /*if(array_search(sfContext::getInstance()->getModuleName(),$moduleArr) === false){
            header("Location:".sfConfig::get('sf_mixi_index_url'));
            exit;
@@ -94,9 +93,9 @@ class MixiMobileLoginCheckFilter extends sfFilter{
    */  
   private function convertGender($value){
   	if($value == "male"){
-  	  return 0;
+  	  return MemberForm::$sexs[0];
   	}else{
-  	  return 1;
+  	  return MemberForm::$sexs[1];
   	}
   }
   /**
