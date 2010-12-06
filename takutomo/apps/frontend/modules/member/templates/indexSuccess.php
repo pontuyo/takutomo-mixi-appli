@@ -105,10 +105,19 @@ foreach($get_attend_event_list as $key=>$value){
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_eval_driver_url')?>">ﾀｸｼｰを評価する</a>
 <br />
 
+<div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
+<span sytle="font-size:small;">使い方</span>
+</div>
+<img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>/images/taxi.jpg" />
+<a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_taxi_manual_url')?>">ﾀｸｼｰの呼びかた</a>
+<br />
+<img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/ainori.gif" />
+<a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_ainori_manual_url')?>">相乗りのしかた</a>
+<br />
 
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span sytle="font-size:small;">管理</span>
-</div>
+</div> 
 <?php echo sfJpMobile::getEmoji()->convert('&#xE719;');//鉛筆の文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_edit_profile_url')?>">ﾌﾟﾛﾌｨｰﾙ設定</a>
 <br />
