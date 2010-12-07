@@ -46,12 +46,13 @@ all:
   taxi_manual_url: http://mixi.takutomo.com/takutomo/web/taxi_manual
   ainori_manual_url: http://mixi.takutomo.com/takutomo/web/ainori_manual
   privacy_url: http://mixi.takutomo.com/takutomo/web/privacy
+  invite_url: http://mixi.takutomo.com/takutomo/web/invite
   
  opensocial:
   person_api: http://api.mixi-platform.com/os/0.8/people/@me/@self
   person_guid_api: http://api.mixi-platform.com/os/0.8/people/
   persistence_api: http://api.mixi-platform.com/os/0.8/appdata/@me/@self/@app
- 
+  friend_search_api: http://api.mixi-platform.com/os/0.8/people/@me/@friends/
  geocoding:
    url: http://www.geocoding.jp/api/
    
