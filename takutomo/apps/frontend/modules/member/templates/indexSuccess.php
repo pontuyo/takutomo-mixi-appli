@@ -1,3 +1,18 @@
+<div style="text-align: center;">
+<span style="font-size:xx-small;"><font size="1">
+<?php echo "ようこそ";?>
+<span style="color:#00ccff;">
+<?php echo mb_convert_kana($sf_request->getAttribute('person')->entry->nickname,'k'); ?>
+</span>
+<?php echo "さん";?>
+</font></span>
+</div>
+<br />
+<div style="text-align: center;">
+<?php echo sfJpMobile::getEmoji()->convert('&#xE685;');//プレゼントの文字?>
+<a href="invite:friends?callback=<?php echo urlencode(sfConfig::get('sf_mixi_invite_url') .'?guid=ON') ?>">ﾏｲﾐｸを招待する</a>
+<?php echo sfJpMobile::getEmoji()->convert('&#xE685;');//プレゼントの文字?>
+</div>
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 1px; padding-top:2px;padding-left:2px;">
 <span sytle="font-size:small;">ﾀｸｼｰ手配ﾒﾆｭｰ</span>
 </div>
