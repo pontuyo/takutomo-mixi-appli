@@ -13,13 +13,14 @@
 <a href="invite:friends?callback=<?php echo urlencode(sfConfig::get('sf_mixi_invite_url') .'?guid=ON') ?>">ﾏｲﾐｸを招待する</a>
 <?php echo sfJpMobile::getEmoji()->convert('&#xE685;');//プレゼントの文字?>
 </div>
+<!--
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 1px; padding-top:2px;padding-left:2px;">
 <span sytle="font-size:small;">ﾀｸｼｰ手配ﾒﾆｭｰ</span>
 </div>
 <img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>/images/taxi.jpg" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_search_driver_url')?>">ﾀｸｼｰを呼ぶ</a>
 <br />
-
+-->
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span sytle="font-size:small;">相乗りﾒﾆｭｰ</span>
 </div>
@@ -115,17 +116,17 @@ foreach($get_attend_event_list as $key=>$value){
 </div>
 <img src="http://pontuyo.net/takutomo/web/images/hyouka.gif" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_eval_member_url')?>">相乗り相手を評価する</a>
-<br />
+<!--<br />
 <img src="http://pontuyo.net/takutomo/web/images/hyouka.gif" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_eval_driver_url')?>">ﾀｸｼｰを評価する</a>
 <br />
-
+-->
 <div style="text-align: left; background-color:#00ccff; color:#FFFFFF; margin:5px 0; padding-top:2px;">
 <span sytle="font-size:small;">使い方</span>
 </div>
-<img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>/images/taxi.jpg" />
+<!--<img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>/images/taxi.jpg" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_taxi_manual_url')?>">ﾀｸｼｰの呼びかた</a>
-<br />
+<br />-->
 <img src="<?php echo sfConfig::get('sf_mixi_index_url') ?>images/ainori.gif" />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_ainori_manual_url')?>">相乗りのしかた</a>
 <br />
@@ -136,12 +137,15 @@ foreach($get_attend_event_list as $key=>$value){
 <?php echo sfJpMobile::getEmoji()->convert('&#xE719;');//鉛筆の文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_edit_profile_url')?>">ﾌﾟﾛﾌｨｰﾙ設定</a>
 <br />
-
 <?php //echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
 <!-- <a href="?guid=ON&amp;url=<?php //echo sfConfig::get('sf_mixi_edit_email_url')?>">ﾒｰﾙｱﾄﾞﾚｽ変更</a>
 <br />-->
 <?php echo sfJpMobile::getEmoji()->convert('&#xE6D3;');//メールの文字?>
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_inquiry_url')?>">お問い合わせ</a>
+<br />
+<?php echo sfJpMobile::getEmoji()->convert('&#xE689;');//メモの文字?>
+<a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_privacy_url')?>">ﾌﾟﾗｲﾊﾞｼーﾎﾟﾘｼー</a>
+<br />
 <!--<hr />
 <a href="?guid=ON&amp;url=<?php echo sfConfig::get('sf_mixi_delete_user_url')?>">ﾀｸﾄﾓ退会</a>
 -->
