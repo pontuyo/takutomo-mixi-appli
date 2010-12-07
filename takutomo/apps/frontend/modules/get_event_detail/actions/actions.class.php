@@ -71,11 +71,10 @@ class get_event_detailActions extends sfActions
       	    array(
       	      'guid' => 'mixi,'.MixiAppMobileApi::$ownerId,
       	      'event_id' => $this->getRequestParameter('event_id'),
-      	      'comment' => $this->getRequestParameter('comment')
+      	      'comments' => $this->getRequestParameter('comment')
       	      )
       	  );
       	 $xml = new SimpleXMLElement($b->getResponseText()); 
-      	 
          if((int)$xml->status->code >= 1000 ){
            $this->form->getErrorSchema()->addError( 
            new sfValidatorError(new sfValidatorPass(), (string)$xml->status->description)); 

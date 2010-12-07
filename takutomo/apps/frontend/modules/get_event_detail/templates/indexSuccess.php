@@ -92,6 +92,7 @@ if(!empty($form)) {
 
 <input type="hidden" name="event_id" value="<?php echo $sf_params->get('event_id')?>" />
 <input type="hidden" name="id" value="<?php echo $sf_params->get('id')?>" />
+<input type="hidden" name="leader_m_id" value="<?php echo $sf_params->get('leader_m_id')?>" />
 <input name="url" type="hidden" value="<?php echo sfConfig::get('sf_mixi_get_event_detail_url') ?>" />
 <input type="submit" value="書き込む"/>
 </form>
