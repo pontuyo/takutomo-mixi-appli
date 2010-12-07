@@ -28,7 +28,9 @@ class MixiMobileLoginCheckFilter extends sfFilter{
            //return $this->getContext()->getController()->forward('error', 'index');
          }
        }
-
+       $mixi = new MixiAppMobileApi;
+  	   $person = $mixi->get(sfConfig::get('sf_opensocial_person_api'));
+       $this->getContext()->getRequest()->setAttribute("person", $person);
     }
        
     $filterChain->execute(); 
