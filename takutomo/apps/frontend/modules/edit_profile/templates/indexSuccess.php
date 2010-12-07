@@ -27,7 +27,7 @@
 <?php echo $form['introduction']->renderError() ?>
 <?php echo $form['introduction']->render() ?><br />
 <br />
-よくタクシーに乗ることがある出発地<br />
+よくﾀｸｼｰに乗ることがある出発地<br />
 <?php echo $form['from1']->renderLabel() ?><br />
 <?php echo $form['from1']->renderError() ?>
 <?php echo $form['from1']->render() ?><br />
@@ -48,7 +48,7 @@
 <?php echo $form['from5']->renderError() ?>
 <?php echo $form['from5']->render() ?><br />
 <br />
-よくタクシーに乗ることがある目的地<br />
+よくﾀｸｼｰに乗ることがある目的地<br />
 <?php echo $form['to1']->renderLabel() ?><br />
 <?php echo $form['to1']->renderError() ?>
 <?php echo $form['to1']->render() ?><br />
