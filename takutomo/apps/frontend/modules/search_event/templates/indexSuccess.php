@@ -44,6 +44,6 @@
 <input type="hidden" name="from_address" value="<?php echo $from_address?>" />
 <input type="hidden" name="to_address" value="<?php echo $to_address?>" />
 <input name="url" type="hidden" value="<?php echo sfConfig::get('sf_mixi_search_event_url').'/list/' ?>" />
-<input type="submit" value="相乗り"/>
+<input type="submit" value="相乗りする"/>
 </form>
 </div>
