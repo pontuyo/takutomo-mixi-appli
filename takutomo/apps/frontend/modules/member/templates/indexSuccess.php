@@ -51,12 +51,15 @@ $week = sfConfig::get('sf_date_week');
 $count = 1;
 $max = count($get_attend_event_list); 
 
-
 foreach($get_attend_event_list as $key=>$value){
  
   if($value['event_id']  && 
    $now <= strtotime($value['depart_date'] ." ". $value['depart_time'])) 
   {
+  	if ($max >= $count && $count > 1) {
+      echo '<img src="' . sfConfig::get('sf_mixi_index_url') . 'images/lines.gif" />';
+    }
+
   	echo '<div>';
   	echo "\n";
   	echo '<sapn style="font-size:small;">';
@@ -101,12 +104,10 @@ foreach($get_attend_event_list as $key=>$value){
      echo "\n";
     echo '</div>';
   	echo "\n";  	
-  	if ($max != $count) {
-      echo '<img src="' . sfConfig::get('sf_mixi_index_url') . 'images/lines.gif" />';
-    }
-  	
+    
+  $count++;	
   }
-  $count++;
+  
 }
 }
   //echo '<a href="device:gpsone?guid=ON&url=http://pontuyo.net/takutomo/web/search_driver&amp;ver=1&amp;datum=0&amp;unit=1">タクシー検索</a>';
