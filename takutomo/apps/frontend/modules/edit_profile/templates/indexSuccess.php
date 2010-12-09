@@ -26,6 +26,7 @@
 <?php echo $form['introduction']->renderLabel() ?><br />
 <?php echo $form['introduction']->renderError() ?>
 <?php echo $form['introduction']->render() ?><br />
+※個人が特定される情報は入力しないで下さい。<br />
 <br />
 よくﾀｸｼｰに乗ることがある出発地<br />
 <?php echo $form['from1']->renderLabel() ?><br />
