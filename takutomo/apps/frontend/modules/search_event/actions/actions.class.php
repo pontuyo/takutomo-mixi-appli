@@ -241,9 +241,9 @@ class search_eventActions extends sfActions
   {
   	$this->form = new sfForm();
   	 if ($request->isMethod('post')){
-  	   if($request->getParameter('from_address') == ""){
+  	   if($this->mb_trim($request->getParameter('from_address')) == ""){
   	     $this->form->getErrorSchema()->addError( 
-         new sfValidatorError(new sfValidatorPass(), $this->from_error));
+         new sfValidatorError(new sfValidatorPass(), '出発地を入力してください。'));
   	   }else{
   	     $b = new sfWebBrowser();
   	     $b->get(sfConfig::get('sf_google_geo_url'),
@@ -299,9 +299,9 @@ class search_eventActions extends sfActions
   {
   	$this->form = new sfForm();
   	 if ($request->isMethod('post')){
-  	   if($request->getParameter('to_address') == ""){
+  	   if($this->mb_trim($request->getParameter('to_address')) == ""){
   	     $this->form->getErrorSchema()->addError( 
-         new sfValidatorError(new sfValidatorPass(), $this->from_error));
+         new sfValidatorError(new sfValidatorPass(), '目的地を入力してください。'));
   	   }else{
   	     $b = new sfWebBrowser();
   	     $b->get(sfConfig::get('sf_google_geo_url'),
@@ -352,7 +352,13 @@ class search_eventActions extends sfActions
     exit;
   }
   
-    private function viewList(sfWebRequest $request,sfWebBrowser $b,$module_name){
+  private  function mb_trim($str, $chars='\s　') {
+    $str = preg_replace("/^[$chars]+/u", '', $str);
+    $str = preg_replace("/[$chars]+$/u", '', $str);
+    return $str;
+  }
+  
+  private function viewList(sfWebRequest $request,sfWebBrowser $b,$module_name){
      	$options = array(
         'complexType'       => 'array',
         'parseAttributes' => TRUE
