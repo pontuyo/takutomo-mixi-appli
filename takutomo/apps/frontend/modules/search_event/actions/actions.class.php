@@ -17,7 +17,7 @@ class search_eventActions extends sfActions
   var $depart_time;
   var $depart_date_min;
   var $depart_date_max;
-
+  var $G_GEO_UNKNOWN_ADDRESS = "住所が見つかりません。";
   
   
   public function executeIndex(sfWebRequest $request)
@@ -241,10 +241,8 @@ class search_eventActions extends sfActions
   {
   	$this->form = new sfForm();
   	 if ($request->isMethod('post')){
-  	   if($this->mb_trim($request->getParameter('from_address')) == ""){
-  	     $this->form->getErrorSchema()->addError( 
-         new sfValidatorError(new sfValidatorPass(), '出発地を入力してください。'));
-  	   }else{
+  	   if($this->validate($request->getParameter('from_address'),'出発地'))
+  	   {
   	     $b = new sfWebBrowser();
   	     $b->get(sfConfig::get('sf_google_geo_url'),
       	    array('output' => 'xml',
@@ -253,8 +251,10 @@ class search_eventActions extends sfActions
       	      'q' => $request->getParameter('from_address')
       	    )
       	);
-      	
-      	$this->viewList($request,$b,"fromConfirm");
+      	$xml = new SimpleXMLElement($b->getResponseText());
+      	if($this->geoCodeValidate($xml)){
+      	  $this->viewList($request,$b,"fromConfirm");
+      	}
   	   
   	   } 
   	 }else{
@@ -299,10 +299,8 @@ class search_eventActions extends sfActions
   {
   	$this->form = new sfForm();
   	 if ($request->isMethod('post')){
-  	   if($this->mb_trim($request->getParameter('to_address')) == ""){
-  	     $this->form->getErrorSchema()->addError( 
-         new sfValidatorError(new sfValidatorPass(), '目的地を入力してください。'));
-  	   }else{
+  	   if($this->validate($request->getParameter('to_address'),'目的地'))
+  	   {
   	     $b = new sfWebBrowser();
   	     $b->get(sfConfig::get('sf_google_geo_url'),
       	    array('output' => 'xml',
@@ -310,8 +308,12 @@ class search_eventActions extends sfActions
       	      'key' => sfConfig::get('sf_google_key'),
       	      'q' => $request->getParameter('to_address')
       	    )
-      	);        
-         $this->viewList($request,$b,"toConfirm");  	   
+      	  );
+      	  $xml = new SimpleXMLElement($b->getResponseText());
+      	 if($this->geoCodeValidate($xml)){
+      	  $this->viewList($request,$b,"toConfirm");
+      	 }
+      	
   	   }    
   	 }else{
   	 	if($request->getParameter('lat') != "" && 
@@ -352,12 +354,54 @@ class search_eventActions extends sfActions
     exit;
   }
   
+  /**
+   * マルチバイトトリム
+   * @return $str
+   */
   private  function mb_trim($str, $chars='\s　') {
     $str = preg_replace("/^[$chars]+/u", '', $str);
     $str = preg_replace("/[$chars]+$/u", '', $str);
     return $str;
   }
   
+  /**
+   * validate
+   */
+   private function validate($value,$error_str)
+   {
+     if($this->mb_trim($value) == ""){
+  	   $this->form->getErrorSchema()->addError( 
+         new sfValidatorError(new sfValidatorPass(), "{$error_str}を入力してください。"));
+       return false;
+     }else if(preg_match("/^[a-zA-Z0-9]+$/", mb_convert_kana($value,'a'))){
+       $this->form->getErrorSchema()->addError( 
+         new sfValidatorError(new sfValidatorPass(), "{$error_str}を正しく入力してください。"));
+       return false;
+     }
+     return true;
+   }
+  /**
+   * geoCodeValidate
+   */
+   private function geoCodeValidate($xml)
+   {
+   	 $accuracys = array(0,1,2,3);//位置情報の精度値
+     if((int)$xml->Response->Status->code == 602 ){        
+         $this->form->getErrorSchema()->addError( 
+         new sfValidatorError(new sfValidatorPass(), $this->G_GEO_UNKNOWN_ADDRESS));
+      	return false;  
+      }else if(strcmp($xml->Response->Placemark->AddressDetails->Country->CountryNameCode,"JP") != 0 ||
+       array_search((int)$xml->Response->Placemark->AddressDetails['Accuracy'],$accuracys) !== FALSE){
+         $this->form->getErrorSchema()->addError( 
+         new sfValidatorError(new sfValidatorPass(), "住所を詳しく入力して下さい。"));
+      	return false; 
+      }
+     return true;
+   }   
+  
+  /**
+   *　一覧表示
+   */ 
   private function viewList(sfWebRequest $request,sfWebBrowser $b,$module_name){
      	$options = array(
         'complexType'       => 'array',
