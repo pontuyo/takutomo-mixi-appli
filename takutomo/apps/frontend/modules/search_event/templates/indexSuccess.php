@@ -36,7 +36,9 @@
 <br />
 <?php echo $form['depart_time']->renderError() ?>
 <?php echo $form['depart_time']->render() ?><br />
-<br />
+<hr />
+ｺﾒﾝﾄ<br />
+相乗り相手が見ます。丁寧に書いたほうが相乗り成立しやすいです。<br />
 <textarea name="detail" cols="20" rows="5"><?php echo $sf_params->get('detail')?></textarea>
 <br />
 
