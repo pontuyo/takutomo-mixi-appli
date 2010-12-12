@@ -385,14 +385,19 @@ class search_eventActions extends sfActions
    */
    private function geoCodeValidate($xml)
    {
-   	 $accuracys = array(0,1,2,3);//位置情報の精度値
+     $countryNameCode = $xml->Response->Placemark->AddressDetails->Country->CountryNameCode;
+     $accuracys = array(0,1,2,3);//位置情報の精度値
+     
      if((int)$xml->Response->Status->code == 602 ){        
          $this->form->getErrorSchema()->addError( 
          new sfValidatorError(new sfValidatorPass(), $this->G_GEO_UNKNOWN_ADDRESS));
       	return false;  
-      }else if(strcmp($xml->Response->Placemark->AddressDetails->Country->CountryNameCode,"JP") != 0 ||
-       array_search((int)$xml->Response->Placemark->AddressDetails['Accuracy'],$accuracys) !== FALSE){
+      }else if(array_search((int)$xml->Response->Placemark->AddressDetails['Accuracy'],$accuracys) !== FALSE){
          $this->form->getErrorSchema()->addError( 
+         new sfValidatorError(new sfValidatorPass(), "住所を詳しく入力して下さい。"));
+      	return false; 
+      }else if(!empty($countryNameCode) && strcmp($countryNameCode,"JP") != 0 ){
+      	 $this->form->getErrorSchema()->addError( 
          new sfValidatorError(new sfValidatorPass(), "住所を詳しく入力して下さい。"));
       	return false; 
       }
